@@ -1,0 +1,773 @@
+{
+  "name": "Shibam Sundar Mahakud",
+  "roll_no": "24B2232",
+  "seed": 42,
+  "gpu_used": "NVIDIA Thor",
+  "task1": {
+    "bm25_settings": "bm25s (lucene), k1=1.4, b=0.5, lower=True, stopwords=none, stemmer=english",
+    "val_ndcg10": 0.8676,
+    "details": {
+      "best_config": {
+        "lowercase": true,
+        "remove_stopwords": false,
+        "stemmer": "english",
+        "k1": 1.4,
+        "b": 0.5
+      },
+      "library": "bm25s 0.3.13 + PyStemmer",
+      "document_text": "title + \" \" + \" \".join(abstract)",
+      "search_space": {
+        "k1": [
+          0.6,
+          0.8,
+          1.0,
+          1.2,
+          1.4,
+          1.6,
+          1.8,
+          2.0
+        ],
+        "b": [
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0
+        ],
+        "lowercase": [
+          true,
+          false
+        ],
+        "stopwords": [
+          "en",
+          "none"
+        ],
+        "stemmer": [
+          "none",
+          "porter",
+          "english"
+        ]
+      },
+      "configurations_tried": 768,
+      "val_metrics": {
+        "ndcg@10": 0.8676,
+        "recall@100": 0.9811,
+        "mrr": 0.8447
+      },
+      "train_metrics": {
+        "ndcg@10": 0.8584,
+        "recall@100": 0.9843,
+        "mrr": 0.8383
+      },
+      "val_metrics_bm25s_defaults": {
+        "ndcg@10": 0.8303,
+        "recall@100": 0.9906,
+        "mrr": 0.8007
+      },
+      "tokenization_ablation": [
+        {
+          "lowercase": true,
+          "remove_stopwords": false,
+          "stemmer": "english",
+          "k1": 1.4,
+          "b": 0.5,
+          "ndcg@10": 0.8676,
+          "recall@100": 0.9811,
+          "mrr": 0.8447
+        },
+        {
+          "lowercase": true,
+          "remove_stopwords": false,
+          "stemmer": "porter",
+          "k1": 1.4,
+          "b": 0.5,
+          "ndcg@10": 0.8662,
+          "recall@100": 0.9717,
+          "mrr": 0.843
+        },
+        {
+          "lowercase": true,
+          "remove_stopwords": true,
+          "stemmer": "porter",
+          "k1": 1.0,
+          "b": 0.5,
+          "ndcg@10": 0.8656,
+          "recall@100": 0.9717,
+          "mrr": 0.8429
+        },
+        {
+          "lowercase": true,
+          "remove_stopwords": true,
+          "stemmer": "english",
+          "k1": 1.0,
+          "b": 0.5,
+          "ndcg@10": 0.8641,
+          "recall@100": 0.9811,
+          "mrr": 0.8442
+        },
+        {
+          "lowercase": true,
+          "remove_stopwords": true,
+          "stemmer": null,
+          "k1": 1.0,
+          "b": 0.5,
+          "ndcg@10": 0.8426,
+          "recall@100": 0.9906,
+          "mrr": 0.8201
+        },
+        {
+          "lowercase": true,
+          "remove_stopwords": false,
+          "stemmer": null,
+          "k1": 1.0,
+          "b": 0.5,
+          "ndcg@10": 0.8419,
+          "recall@100": 0.9906,
+          "mrr": 0.82
+        },
+        {
+          "lowercase": false,
+          "remove_stopwords": false,
+          "stemmer": "english",
+          "k1": 1.6,
+          "b": 0.4,
+          "ndcg@10": 0.8214,
+          "recall@100": 0.9811,
+          "mrr": 0.7906
+        },
+        {
+          "lowercase": false,
+          "remove_stopwords": false,
+          "stemmer": "porter",
+          "k1": 1.6,
+          "b": 0.4,
+          "ndcg@10": 0.8198,
+          "recall@100": 0.9811,
+          "mrr": 0.7888
+        },
+        {
+          "lowercase": false,
+          "remove_stopwords": true,
+          "stemmer": "english",
+          "k1": 1.8,
+          "b": 0.4,
+          "ndcg@10": 0.8163,
+          "recall@100": 0.9811,
+          "mrr": 0.7838
+        },
+        {
+          "lowercase": false,
+          "remove_stopwords": true,
+          "stemmer": "porter",
+          "k1": 1.8,
+          "b": 0.4,
+          "ndcg@10": 0.8154,
+          "recall@100": 0.9811,
+          "mrr": 0.7827
+        },
+        {
+          "lowercase": false,
+          "remove_stopwords": false,
+          "stemmer": null,
+          "k1": 1.8,
+          "b": 0.6,
+          "ndcg@10": 0.7918,
+          "recall@100": 0.9717,
+          "mrr": 0.7598
+        },
+        {
+          "lowercase": false,
+          "remove_stopwords": true,
+          "stemmer": null,
+          "k1": 2.0,
+          "b": 0.5,
+          "ndcg@10": 0.7909,
+          "recall@100": 0.9717,
+          "mrr": 0.7614
+        }
+      ],
+      "full_grid_log": "code/logs/task1_bm25_grid.json"
+    }
+  },
+  "task2": {
+    "general_model": "BAAI/bge-large-en-v1.5",
+    "scientific_model": "pritamdeka/S-PubMedBert-MS-MARCO",
+    "val_ndcg10_general": 0.9328,
+    "val_ndcg10_scientific": 0.8339,
+    "index_time_sec": {
+      "general": 70.31,
+      "scientific": 20.89
+    },
+    "query_latency_ms": {
+      "general": 30.39,
+      "scientific": 22.05
+    },
+    "memory_mb": {
+      "general": 1371.2,
+      "scientific": 495.2
+    },
+    "details": {
+      "selected": {
+        "general": "bge-large-en-v1.5",
+        "scientific": "S-PubMedBert-MS-MARCO"
+      },
+      "parameters_m": {
+        "general": 335.1,
+        "scientific": 109.5
+      },
+      "embedding_matrix_mb": {
+        "general": 10.12,
+        "scientific": 7.59
+      },
+      "process_rss_mb": {
+        "general": 2138.5,
+        "scientific": 2335.8
+      },
+      "protocol": {
+        "similarity": "cosine (L2-normalized embeddings, exact matrix product, no FAISS)",
+        "index_time": "wall-clock to encode all 5,183 docs (fp16, batch 32), after a warm-up batch",
+        "query_latency": "mean ms per validation claim at batch size 1: encode + matmul + top-100",
+        "memory_mb": "torch.cuda.max_memory_allocated() during load + encode + search",
+        "medcpt_input": "articles as (title, abstract) pairs, queries max 64 tokens, [CLS] pooling"
+      },
+      "candidates": [
+        {
+          "name": "bge-base-en-v1.5",
+          "family": "general",
+          "parameters_m": 109.5,
+          "val_metrics": {
+            "ndcg@10": 0.897,
+            "recall@100": 1.0,
+            "mrr": 0.8869
+          }
+        },
+        {
+          "name": "bge-large-en-v1.5",
+          "family": "general",
+          "parameters_m": 335.1,
+          "val_metrics": {
+            "ndcg@10": 0.9328,
+            "recall@100": 1.0,
+            "mrr": 0.9191
+          }
+        },
+        {
+          "name": "e5-large-v2",
+          "family": "general",
+          "parameters_m": 335.1,
+          "val_metrics": {
+            "ndcg@10": 0.883,
+            "recall@100": 0.9906,
+            "mrr": 0.8586
+          }
+        },
+        {
+          "name": "snowflake-arctic-embed-l",
+          "family": "general",
+          "parameters_m": 334.1,
+          "val_metrics": {
+            "ndcg@10": 0.8957,
+            "recall@100": 0.9906,
+            "mrr": 0.8712
+          }
+        },
+        {
+          "name": "MedCPT",
+          "family": "scientific",
+          "parameters_m": 219.0,
+          "val_metrics": {
+            "ndcg@10": 0.8236,
+            "recall@100": 1.0,
+            "mrr": 0.7909
+          }
+        },
+        {
+          "name": "S-PubMedBert-MS-MARCO",
+          "family": "scientific",
+          "parameters_m": 109.5,
+          "val_metrics": {
+            "ndcg@10": 0.8339,
+            "recall@100": 1.0,
+            "mrr": 0.8076
+          }
+        }
+      ],
+      "candidates_log": "code/logs/task2_dense_candidates.json"
+    }
+  },
+  "task3": {
+    "hybrid_method": "RRF(k=10): 0.1*bm25 + 0.8*general + 0.1*scientific",
+    "reranker_model": "ncbi/MedCPT-Cross-Encoder",
+    "rerank_top_k": 20,
+    "val_ndcg10_hybrid": 0.9334,
+    "val_ndcg10_rerank": 0.9133,
+    "rerank_query_latency_ms": 139.57,
+    "details": {
+      "dense_models": {
+        "general": "bge-large-en-v1.5",
+        "scientific": "S-PubMedBert-MS-MARCO"
+      },
+      "single_systems_val": {
+        "bm25": {
+          "ndcg@10": 0.8676,
+          "recall@100": 0.9811,
+          "mrr": 0.8447
+        },
+        "general": {
+          "ndcg@10": 0.9328,
+          "recall@100": 1.0,
+          "mrr": 0.9191
+        },
+        "scientific": {
+          "ndcg@10": 0.8339,
+          "recall@100": 1.0,
+          "mrr": 0.8076
+        }
+      },
+      "best_hybrid_config": {
+        "method": "rrf",
+        "systems": [
+          "bm25",
+          "general",
+          "scientific"
+        ],
+        "weights": [
+          0.1,
+          0.8,
+          0.1
+        ],
+        "k": 10
+      },
+      "hybrid_val_metrics": {
+        "ndcg@10": 0.9334,
+        "recall@100": 1.0,
+        "mrr": 0.9188
+      },
+      "fusion_settings_tried": 368,
+      "minmax_normalization": "per claim over all corpus documents",
+      "reranked_first_stage": "hybrid",
+      "reranker_parameters_m": {
+        "ms-marco-MiniLM-L-6-v2": 22.7,
+        "bge-reranker-base": 278.0,
+        "MedCPT-Cross-Encoder": 109.5
+      },
+      "rerank_grid_val": [
+        {
+          "model": "ms-marco-MiniLM-L-6-v2",
+          "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+          "parameters_m": 22.7,
+          "k": 20,
+          "query_latency_ms": 71.03,
+          "ndcg@10": 0.8773,
+          "recall@100": 1.0,
+          "mrr": 0.8577
+        },
+        {
+          "model": "ms-marco-MiniLM-L-6-v2",
+          "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+          "parameters_m": 22.7,
+          "k": 50,
+          "query_latency_ms": 148.81,
+          "ndcg@10": 0.8648,
+          "recall@100": 1.0,
+          "mrr": 0.8552
+        },
+        {
+          "model": "ms-marco-MiniLM-L-6-v2",
+          "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+          "parameters_m": 22.7,
+          "k": 100,
+          "query_latency_ms": 329.69,
+          "ndcg@10": 0.8648,
+          "recall@100": 1.0,
+          "mrr": 0.8544
+        },
+        {
+          "model": "bge-reranker-base",
+          "model_id": "BAAI/bge-reranker-base",
+          "parameters_m": 278.0,
+          "k": 20,
+          "query_latency_ms": 147.13,
+          "ndcg@10": 0.8673,
+          "recall@100": 1.0,
+          "mrr": 0.8291
+        },
+        {
+          "model": "bge-reranker-base",
+          "model_id": "BAAI/bge-reranker-base",
+          "parameters_m": 278.0,
+          "k": 50,
+          "query_latency_ms": 366.52,
+          "ndcg@10": 0.8529,
+          "recall@100": 1.0,
+          "mrr": 0.8252
+        },
+        {
+          "model": "bge-reranker-base",
+          "model_id": "BAAI/bge-reranker-base",
+          "parameters_m": 278.0,
+          "k": 100,
+          "query_latency_ms": 711.0,
+          "ndcg@10": 0.8481,
+          "recall@100": 1.0,
+          "mrr": 0.8221
+        },
+        {
+          "model": "MedCPT-Cross-Encoder",
+          "model_id": "ncbi/MedCPT-Cross-Encoder",
+          "parameters_m": 109.5,
+          "k": 20,
+          "query_latency_ms": 139.57,
+          "ndcg@10": 0.9133,
+          "recall@100": 1.0,
+          "mrr": 0.8874
+        },
+        {
+          "model": "MedCPT-Cross-Encoder",
+          "model_id": "ncbi/MedCPT-Cross-Encoder",
+          "parameters_m": 109.5,
+          "k": 50,
+          "query_latency_ms": 363.56,
+          "ndcg@10": 0.9125,
+          "recall@100": 1.0,
+          "mrr": 0.8863
+        },
+        {
+          "model": "MedCPT-Cross-Encoder",
+          "model_id": "ncbi/MedCPT-Cross-Encoder",
+          "parameters_m": 109.5,
+          "k": 100,
+          "query_latency_ms": 712.55,
+          "ndcg@10": 0.9125,
+          "recall@100": 1.0,
+          "mrr": 0.8863
+        }
+      ],
+      "best_reranker_top20_on_single_systems_val_ndcg10": {
+        "bm25": {
+          "before": 0.8676,
+          "after": 0.8994
+        },
+        "general": {
+          "before": 0.9328,
+          "after": 0.9137
+        },
+        "scientific": {
+          "before": 0.8339,
+          "after": 0.894
+        }
+      },
+      "rerank_latency_protocol": "cross-encoder time only, mean ms per validation claim, all k pairs of a claim in one batch, fp16, max 512 tokens",
+      "q2": {
+        "best_single_system": "general",
+        "fusion_gain_ndcg10": 0.0006,
+        "fusion_added_ms_per_claim": 22.28,
+        "rerank_gain_ndcg10": -0.0201,
+        "rerank_added_ms_per_claim": 139.57,
+        "latency_ms_per_claim": {
+          "bm25": 0.15,
+          "general": 30.39,
+          "scientific": 22.05,
+          "fusion_step": 0.082,
+          "hybrid_total": 52.67,
+          "rerank_pipeline_total": 192.24
+        }
+      },
+      "full_log": "code/logs/task3_hybrid_rerank.json"
+    }
+  },
+  "task4": {
+    "base_model": "BAAI/bge-large-en-v1.5",
+    "val_ndcg10_random_negatives": 0.9328,
+    "val_ndcg10_hard_negatives": 0.942,
+    "details": {
+      "base_model_val_ndcg10": 0.9328,
+      "base_model_parameters_m": 335.1,
+      "selected_hard_run": "hard-skip3",
+      "training_pairs": 440,
+      "rows": {
+        "random": 440,
+        "hard-skip1": 440,
+        "hard-skip3": 439
+      },
+      "training": {
+        "loss": "MultipleNegativesRankingLoss (in-batch negatives)",
+        "batch_sampler": "NO_DUPLICATES",
+        "epochs": 3,
+        "learning_rate": 1e-05,
+        "loss_scale": 50.0,
+        "batch_size": 32,
+        "warmup_ratio": 0.1,
+        "precision": "bf16",
+        "eval_every_steps": 3,
+        "steps_per_epoch": 14,
+        "checkpoint_selection": "best validation nDCG@10 (load_best_model_at_end)"
+      },
+      "hard_negative_mining": {
+        "negatives_per_pair": "2: one from the base dense model, one from tuned BM25",
+        "dense": "sentence_transformers.util.mine_hard_negatives",
+        "order": "drop gold, drop within relative margin, then skip the top `skip_top` survivors",
+        "skip_top_values": [
+          1,
+          3
+        ],
+        "range_max": 50,
+        "relative_margin": 0.05,
+        "per_run": {
+          "hard-skip1": {
+            "pairs_with_dense_negative": 430,
+            "bm25_candidates_dropped_by_margin": 665,
+            "rows": 440,
+            "review_sample": "code/logs/task4_hard_negative_review_skip1.md"
+          },
+          "hard-skip3": {
+            "pairs_with_dense_negative": 430,
+            "bm25_candidates_dropped_by_margin": 665,
+            "rows": 439,
+            "review_sample": "code/logs/task4_hard_negative_review_skip3.md"
+          }
+        }
+      },
+      "val_metrics": {
+        "random": {
+          "ndcg@10": 0.9328,
+          "recall@100": 1.0,
+          "mrr": 0.9191
+        },
+        "hard-skip1": {
+          "ndcg@10": 0.9409,
+          "recall@100": 1.0,
+          "mrr": 0.9292
+        },
+        "hard-skip3": {
+          "ndcg@10": 0.942,
+          "recall@100": 1.0,
+          "mrr": 0.9291
+        }
+      },
+      "ablation_first_attempt": "code/logs/task4_ablation_scale20_lr2e-5.json (bge-large, MNRL scale 20, lr 2e-5, 4 epochs)",
+      "curves": {
+        "random": {
+          "best_step": 3,
+          "best_val_ndcg10": 0.9308,
+          "final_val_ndcg10": 0.9203
+        },
+        "hard-skip1": {
+          "best_step": 15,
+          "best_val_ndcg10": 0.9409,
+          "final_val_ndcg10": 0.9409
+        },
+        "hard-skip3": {
+          "best_step": 24,
+          "best_val_ndcg10": 0.942,
+          "final_val_ndcg10": 0.9315
+        }
+      },
+      "curve_plot": "code/logs/task4_curves.png",
+      "full_log": "code/logs/task4_finetune.json"
+    }
+  },
+  "task5": {
+    "retriever_used": "finetuned-hard-skip3 (best validation nDCG@10), top 3 abstracts",
+    "nli_model": "pritamdeka/PubMedBERT-MNLI-MedNLI",
+    "zero_shot_or_finetuned": "fine-tuned",
+    "val_f1": 0.6475,
+    "details": {
+      "val_metrics": {
+        "precision": 0.6583,
+        "recall": 0.6371,
+        "f1": 0.6475
+      },
+      "decision_rule": {
+        "support_threshold": 0.85,
+        "contradict_threshold": 0.8,
+        "max_rank": 2,
+        "one_label_per_claim": false
+      },
+      "retriever_val_ndcg10": {
+        "bge-large-en-v1.5": 0.9328,
+        "finetuned-random": 0.9328,
+        "finetuned-hard-skip3": 0.942
+      },
+      "gold_pairs_in_top3": "115/124",
+      "nli_scoring": "per sentence (premise=sentence, hypothesis=claim); per abstract max entailment and max contradiction probability",
+      "candidates": {
+        "cross-encoder/nli-deberta-v3-base": {
+          "mode": "zero-shot",
+          "model_id": "cross-encoder/nli-deberta-v3-base",
+          "val": {
+            "precision": 0.5315,
+            "recall": 0.4758,
+            "f1": 0.5021
+          },
+          "rule": {
+            "support_threshold": 0.01,
+            "contradict_threshold": 0.99,
+            "max_rank": 1,
+            "one_label_per_claim": true
+          },
+          "parameters_m": 184.4
+        },
+        "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli": {
+          "mode": "zero-shot",
+          "model_id": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+          "val": {
+            "precision": 0.5246,
+            "recall": 0.5161,
+            "f1": 0.5203
+          },
+          "rule": {
+            "support_threshold": 0.05,
+            "contradict_threshold": 0.75,
+            "max_rank": 1,
+            "one_label_per_claim": true
+          },
+          "parameters_m": 184.4
+        },
+        "pritamdeka/PubMedBERT-MNLI-MedNLI": {
+          "mode": "zero-shot",
+          "model_id": "pritamdeka/PubMedBERT-MNLI-MedNLI",
+          "val": {
+            "precision": 0.5071,
+            "recall": 0.5726,
+            "f1": 0.5379
+          },
+          "rule": {
+            "support_threshold": 0.99,
+            "contradict_threshold": 0.99,
+            "max_rank": 1,
+            "one_label_per_claim": true
+          },
+          "parameters_m": 109.5
+        },
+        "fine-tuned": {
+          "mode": "fine-tuned",
+          "model_id": "pritamdeka/PubMedBERT-MNLI-MedNLI",
+          "val": {
+            "precision": 0.6583,
+            "recall": 0.6371,
+            "f1": 0.6475
+          },
+          "rule": {
+            "support_threshold": 0.85,
+            "contradict_threshold": 0.8,
+            "max_rank": 2,
+            "one_label_per_claim": false
+          },
+          "parameters_m": 109.5
+        }
+      },
+      "nli_fine_tuning": {
+        "examples": 2364,
+        "label_counts": {
+          "entailment": 510,
+          "contradiction": 278,
+          "neutral": 1576
+        },
+        "epochs": 3,
+        "learning_rate": 1e-05,
+        "batch_size": 16,
+        "train_retriever": "bge-large-en-v1.5",
+        "history": [
+          {
+            "epoch": 0,
+            "train_loss": null,
+            "precision": 0.5071,
+            "recall": 0.5726,
+            "f1": 0.5379
+          },
+          {
+            "epoch": 1,
+            "train_loss": 0.8958,
+            "precision": 0.6486,
+            "recall": 0.5806,
+            "f1": 0.6128
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.3341,
+            "precision": 0.6583,
+            "recall": 0.6371,
+            "f1": 0.6475
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.2358,
+            "precision": 0.6916,
+            "recall": 0.5968,
+            "f1": 0.6407
+          }
+        ]
+      },
+      "val_error_counts": {
+        "entity_mismatch": 2,
+        "needs_multiple_docs": 9,
+        "negation": 2,
+        "numerical": 8,
+        "other": 38,
+        "retrieval_miss": 2
+      },
+      "val_errors_total": 61,
+      "q4_retrieval_miss_fraction": 0.0328,
+      "full_log": "code/logs/task5_verification.json"
+    }
+  },
+  "report_q1": {
+    "bm25_wins": [
+      1390,
+      673
+    ],
+    "general_wins": [
+      463,
+      1311
+    ]
+  },
+  "data_stats": {
+    "corpus": {
+      "documents": 5183,
+      "mean_words": 214.6,
+      "median_words": 204,
+      "max_words": 1541,
+      "mean_sentences": 8.9,
+      "empty_abstracts": 0
+    },
+    "train": {
+      "claims": 647,
+      "nei": 248,
+      "one_gold_abstract": 374,
+      "several_gold_abstracts": 25,
+      "max_gold_abstracts": 4,
+      "support_pairs": 290,
+      "contradict_pairs": 150,
+      "support_ratio": 0.659,
+      "claims_by_label_set": {
+        "CONTRADICT": 133,
+        "SUPPORT": 266
+      },
+      "gold_docs_missing_from_corpus": 0,
+      "mean_claim_words": 12.4
+    },
+    "val": {
+      "claims": 162,
+      "nei": 56,
+      "one_gold_abstract": 94,
+      "several_gold_abstracts": 12,
+      "max_gold_abstracts": 3,
+      "support_pairs": 80,
+      "contradict_pairs": 44,
+      "support_ratio": 0.645,
+      "claims_by_label_set": {
+        "SUPPORT": 66,
+        "CONTRADICT": 40
+      },
+      "gold_docs_missing_from_corpus": 0,
+      "mean_claim_words": 12.2
+    },
+    "eval": {
+      "claims": 300
+    }
+  }
+}

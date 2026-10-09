@@ -1,0 +1,122 @@
+[
+  {
+    "name": "bge-base-en-v1.5",
+    "family": "general",
+    "model_id": "BAAI/bge-base-en-v1.5",
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "doc_prefix": "",
+    "article_model_id": null,
+    "val_metrics": {
+      "ndcg@10": 0.897,
+      "recall@100": 1.0,
+      "mrr": 0.8869
+    },
+    "parameters_m": 109.5,
+    "embedding_dim": 768,
+    "index_time_sec": 28.69,
+    "query_latency_ms": 22.88,
+    "gpu_peak_mb": 554.4,
+    "embedding_matrix_mb": 7.59,
+    "process_rss_mb": 1961.8
+  },
+  {
+    "name": "bge-large-en-v1.5",
+    "family": "general",
+    "model_id": "BAAI/bge-large-en-v1.5",
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "doc_prefix": "",
+    "article_model_id": null,
+    "val_metrics": {
+      "ndcg@10": 0.9328,
+      "recall@100": 1.0,
+      "mrr": 0.9191
+    },
+    "parameters_m": 335.1,
+    "embedding_dim": 1024,
+    "index_time_sec": 70.31,
+    "query_latency_ms": 30.39,
+    "gpu_peak_mb": 1371.2,
+    "embedding_matrix_mb": 10.12,
+    "process_rss_mb": 2138.5
+  },
+  {
+    "name": "e5-large-v2",
+    "family": "general",
+    "model_id": "intfloat/e5-large-v2",
+    "query_prefix": "query: ",
+    "doc_prefix": "passage: ",
+    "article_model_id": null,
+    "val_metrics": {
+      "ndcg@10": 0.883,
+      "recall@100": 0.9906,
+      "mrr": 0.8586
+    },
+    "parameters_m": 335.1,
+    "embedding_dim": 1024,
+    "index_time_sec": 71.29,
+    "query_latency_ms": 32.55,
+    "gpu_peak_mb": 1371.2,
+    "embedding_matrix_mb": 10.12,
+    "process_rss_mb": 2267.5
+  },
+  {
+    "name": "snowflake-arctic-embed-l",
+    "family": "general",
+    "model_id": "Snowflake/snowflake-arctic-embed-l",
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "doc_prefix": "",
+    "article_model_id": null,
+    "val_metrics": {
+      "ndcg@10": 0.8957,
+      "recall@100": 0.9906,
+      "mrr": 0.8712
+    },
+    "parameters_m": 334.1,
+    "embedding_dim": 1024,
+    "index_time_sec": 70.32,
+    "query_latency_ms": 31.56,
+    "gpu_peak_mb": 1367.2,
+    "embedding_matrix_mb": 10.12,
+    "process_rss_mb": 2323.4
+  },
+  {
+    "name": "MedCPT",
+    "family": "scientific",
+    "model_id": "ncbi/MedCPT-Query-Encoder",
+    "query_prefix": "",
+    "doc_prefix": "",
+    "article_model_id": "ncbi/MedCPT-Article-Encoder",
+    "val_metrics": {
+      "ndcg@10": 0.8236,
+      "recall@100": 1.0,
+      "mrr": 0.7909
+    },
+    "parameters_m": 219.0,
+    "embedding_dim": 768,
+    "index_time_sec": 31.53,
+    "query_latency_ms": 18.41,
+    "gpu_peak_mb": 784.0,
+    "embedding_matrix_mb": 15.18,
+    "process_rss_mb": 2346.2
+  },
+  {
+    "name": "S-PubMedBert-MS-MARCO",
+    "family": "scientific",
+    "model_id": "pritamdeka/S-PubMedBert-MS-MARCO",
+    "query_prefix": "",
+    "doc_prefix": "",
+    "article_model_id": null,
+    "val_metrics": {
+      "ndcg@10": 0.8339,
+      "recall@100": 1.0,
+      "mrr": 0.8076
+    },
+    "parameters_m": 109.5,
+    "embedding_dim": 768,
+    "index_time_sec": 20.89,
+    "query_latency_ms": 22.05,
+    "gpu_peak_mb": 495.2,
+    "embedding_matrix_mb": 7.59,
+    "process_rss_mb": 2335.8
+  }
+]

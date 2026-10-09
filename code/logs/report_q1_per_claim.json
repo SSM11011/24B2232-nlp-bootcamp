@@ -1,0 +1,1752 @@
+[
+  {
+    "claim_id": 673,
+    "claim": "LDL cholesterol has a causal role in the development of cardiovascular disease.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 0.3869,
+    "delta": 0.6131,
+    "gold_rank_bm25": {
+      "2095573": 1
+    },
+    "gold_rank_general": {
+      "2095573": 5
+    },
+    "gold_titles": {
+      "2095573": "LDL-cholesterol concentrations: a genome-wide association study"
+    }
+  },
+  {
+    "claim_id": 1018,
+    "claim": "Rapid phosphotransfer rates are correlated with histidine kinase regulator specificity.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 0.6309,
+    "delta": 0.3691,
+    "gold_rank_bm25": {
+      "11603066": 1
+    },
+    "gold_rank_general": {
+      "11603066": 2
+    },
+    "gold_titles": {
+      "11603066": "Using Structural Information to Change the Phosphotransfer Specificity of a Two-Component Chemotaxis Signalling Complex"
+    }
+  },
+  {
+    "claim_id": 1390,
+    "claim": "mcm 5 s 2 U is required for proper decoding of NNR codons in eukaryotes.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 0.6309,
+    "delta": 0.3691,
+    "gold_rank_bm25": {
+      "2890952": 1
+    },
+    "gold_rank_general": {
+      "2890952": 2
+    },
+    "gold_titles": {
+      "2890952": "Mechanistic characterization of the sulfur-relay system for eukaryotic 2-thiouridine biogenesis at tRNA wobble positions"
+    }
+  },
+  {
+    "claim_id": 155,
+    "claim": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 0.6309,
+    "delta": 0.3691,
+    "gold_rank_bm25": {
+      "37549932": 1
+    },
+    "gold_rank_general": {
+      "37549932": 2
+    },
+    "gold_titles": {
+      "37549932": "Antiapoptotic BCL-2 is required for maintenance of a model leukemia."
+    }
+  },
+  {
+    "claim_id": 34,
+    "claim": "A deficiency of folate increases blood levels of homocysteine.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 0.6309,
+    "delta": 0.3691,
+    "gold_rank_bm25": {
+      "11705328": 1
+    },
+    "gold_rank_general": {
+      "11705328": 2
+    },
+    "gold_titles": {
+      "11705328": "Randomized trial of folic acid supplementation and serum homocysteine levels."
+    }
+  },
+  {
+    "claim_id": 483,
+    "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 0.6309,
+    "delta": 0.3691,
+    "gold_rank_bm25": {
+      "22703082": 1
+    },
+    "gold_rank_general": {
+      "22703082": 2
+    },
+    "gold_titles": {
+      "22703082": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium"
+    }
+  },
+  {
+    "claim_id": 1003,
+    "claim": "RAD52 is involved in break-induced DNA replication (BIR).",
+    "ndcg10_bm25": 0.906,
+    "ndcg10_general": 0.6105,
+    "delta": 0.2955,
+    "gold_rank_bm25": {
+      "4319844": 4,
+      "4899981": 3,
+      "14332945": 1
+    },
+    "gold_rank_general": {
+      "4319844": 17,
+      "4899981": 9,
+      "14332945": 1
+    },
+    "gold_titles": {
+      "4319844": "Alternative Lengthening of Telomeres Mediated by Mitotic DNA Synthesis Engages Break-Induced Replication Processes.",
+      "4899981": "Human cancer cells utilize mitotic DNA synthesis to resist replication stress at telomeres regardless of their telomere maintenance mechanism",
+      "14332945": "Mammalian RAD52 Functions in Break-Induced Replication Repair of Collapsed DNA Replication Forks"
+    }
+  },
+  {
+    "claim_id": 1005,
+    "claim": "RANK-RANKL pathway signalling is linked to development of Aire-expressing medullary thymic epithelial cells.",
+    "ndcg10_bm25": 0.9675,
+    "ndcg10_general": 0.7328,
+    "delta": 0.2347,
+    "gold_rank_bm25": {
+      "301838": 2,
+      "2734421": 4,
+      "3952288": 1
+    },
+    "gold_rank_general": {
+      "301838": 3,
+      "2734421": 4,
+      "3952288": 2
+    },
+    "gold_titles": {
+      "301838": "Rank Signaling Links the Development of Invariant \u03b3\u03b4 T Cell Progenitors and Aire+ Medullary Epithelium",
+      "2734421": "The tumor necrosis factor family receptors RANK and CD40 cooperatively establish the thymic medullary microenvironment and self-tolerance.",
+      "3952288": "RANK signals from CD4+3\u2212 inducer cells regulate development of Aire-expressing epithelial cells in the thymic medulla"
+    }
+  },
+  {
+    "claim_id": 962,
+    "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+    "ndcg10_bm25": 0.9675,
+    "ndcg10_general": 0.7328,
+    "delta": 0.2347,
+    "gold_rank_bm25": {
+      "935538": 2,
+      "4306711": 4,
+      "13931771": 1
+    },
+    "gold_rank_general": {
+      "935538": 2,
+      "4306711": 4,
+      "13931771": 3
+    },
+    "gold_titles": {
+      "935538": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+      "4306711": "The Human Mitochondrial DEAD-Box Protein DDX28 Resides in RNA Granules and Functions in Mitoribosome Assembly.",
+      "13931771": "GRSF1 Regulates RNA Processing in Mitochondrial RNA Granules"
+    }
+  },
+  {
+    "claim_id": 1004,
+    "claim": "RANK-RANKL pathway signalling has no known association with development of Aire-expressing medullary thymic epithelial cells.",
+    "ndcg10_bm25": 0.9675,
+    "ndcg10_general": 0.9675,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "301838": 2,
+      "2734421": 4,
+      "3952288": 1
+    },
+    "gold_rank_general": {
+      "301838": 2,
+      "2734421": 4,
+      "3952288": 1
+    },
+    "gold_titles": {
+      "301838": "Rank Signaling Links the Development of Invariant \u03b3\u03b4 T Cell Progenitors and Aire+ Medullary Epithelium",
+      "2734421": "The tumor necrosis factor family receptors RANK and CD40 cooperatively establish the thymic medullary microenvironment and self-tolerance.",
+      "3952288": "RANK signals from CD4+3\u2212 inducer cells regulate development of Aire-expressing epithelial cells in the thymic medulla"
+    }
+  },
+  {
+    "claim_id": 1009,
+    "claim": "RUNX1 is downregulated or mutated in TLX1 T-ALL.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "1982286": 1
+    },
+    "gold_rank_general": {
+      "1982286": 1
+    },
+    "gold_titles": {
+      "1982286": "Reverse engineering of TLX oncogenic transcriptional networks identifies RUNX1 as tumor suppressor in T-ALL"
+    }
+  },
+  {
+    "claim_id": 1011,
+    "claim": "Radioiodine treatment of non-toxic multinodular goitre increases thyroid volume.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "9745001": 1
+    },
+    "gold_rank_general": {
+      "9745001": 1
+    },
+    "gold_titles": {
+      "9745001": "Radioiodine treatment of multinodular non-toxic goitre."
+    }
+  },
+  {
+    "claim_id": 1045,
+    "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "22500262": 1
+    },
+    "gold_rank_general": {
+      "22500262": 1
+    },
+    "gold_titles": {
+      "22500262": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis"
+    }
+  },
+  {
+    "claim_id": 106,
+    "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "5151024": 2,
+      "25515907": 1
+    },
+    "gold_rank_general": {
+      "5151024": 2,
+      "25515907": 1
+    },
+    "gold_titles": {
+      "5151024": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+      "25515907": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review"
+    }
+  },
+  {
+    "claim_id": 1069,
+    "claim": "Scapular stabilizer exercises are more effective than general exercise therapy in reducing pain and improving function of the shoulder.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4200695": 1
+    },
+    "gold_rank_general": {
+      "4200695": 1
+    },
+    "gold_titles": {
+      "4200695": "Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome: randomised controlled study"
+    }
+  },
+  {
+    "claim_id": 1073,
+    "claim": "Sepsis related mortality has risen from 2009 to 2014.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4824840": 1
+    },
+    "gold_rank_general": {
+      "4824840": 1
+    },
+    "gold_titles": {
+      "4824840": "Incidence and Trends of Sepsis in US Hospitals Using Clinical vs Claims Data, 2009-2014"
+    }
+  },
+  {
+    "claim_id": 1084,
+    "claim": "Side effects associated with antidepressants increases risk of stroke.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "5691302": 1
+    },
+    "gold_rank_general": {
+      "5691302": 1
+    },
+    "gold_titles": {
+      "5691302": "Antidepressant use and risk of adverse outcomes in older people: population based cohort study"
+    }
+  },
+  {
+    "claim_id": 1115,
+    "claim": "Surgical treatment is not superior to non-surgical in treating adults with displaced fractures of the proximal humerus.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "44048701": 1
+    },
+    "gold_rank_general": {
+      "44048701": 1
+    },
+    "gold_titles": {
+      "44048701": "Surgical vs nonsurgical treatment of adults with displaced fractures of the proximal humerus: the PROFHER randomized clinical trial."
+    }
+  },
+  {
+    "claim_id": 112,
+    "claim": "Angiotensin converting enzyme inhibitors are associated with decreased risk for functional renal insufficiency.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "6157837": 1
+    },
+    "gold_rank_general": {
+      "6157837": 1
+    },
+    "gold_titles": {
+      "6157837": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association."
+    }
+  },
+  {
+    "claim_id": 1125,
+    "claim": "Systemic immunosuppressive (IS) therapy does not enhance the chance of cancer mortality in patients with inflammatory eye disease (IED)",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "21009874": 1
+    },
+    "gold_rank_general": {
+      "21009874": 1
+    },
+    "gold_titles": {
+      "21009874": "Overall and cancer related mortality among patients with ocular inflammation treated with immunosuppressive drugs: retrospective cohort study."
+    }
+  },
+  {
+    "claim_id": 1133,
+    "claim": "TMEM27 is a marker for beta cells.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "24142891": 1
+    },
+    "gold_rank_general": {
+      "24142891": 1
+    },
+    "gold_titles": {
+      "24142891": "Tmem27: a cleaved and shed plasma membrane protein that stimulates pancreatic beta cell proliferation."
+    }
+  },
+  {
+    "claim_id": 1148,
+    "claim": "Ten percent (10%) of kidney cancers in the UK are attributable to excess weight.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4828631": 1
+    },
+    "gold_rank_general": {
+      "4828631": 1
+    },
+    "gold_titles": {
+      "4828631": "Body-mass index and risk of 22 specific cancers: a population-based cohort study of 5\u00b724 million UK adults"
+    }
+  },
+  {
+    "claim_id": 1173,
+    "claim": "The PDPN gene deactivates the C-type lectin receptor (CLEC-2).",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "7370282": 1
+    },
+    "gold_rank_general": {
+      "7370282": 1
+    },
+    "gold_titles": {
+      "7370282": "Podoplanin-Rich Stromal Networks Induce Dendritic Cell Motility via Activation of the C-type Lectin Receptor CLEC-2"
+    }
+  },
+  {
+    "claim_id": 119,
+    "claim": "Antidepressants increase the severity of migraines.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "14606752": 1
+    },
+    "gold_rank_general": {
+      "14606752": 1
+    },
+    "gold_titles": {
+      "14606752": "Tricyclic antidepressants and headaches: systematic review and meta-analysis"
+    }
+  },
+  {
+    "claim_id": 1223,
+    "claim": "The innate immune response struggles to remove small numbers of parasites.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "5289038": 1
+    },
+    "gold_rank_general": {
+      "5289038": 1
+    },
+    "gold_titles": {
+      "5289038": "Partitioning regulatory mechanisms of within-host malaria dynamics using the effective propagation number."
+    }
+  },
+  {
+    "claim_id": 1229,
+    "claim": "The microtubule-dependent delivery and secretion of matrix metalloproteases (MMPs) is partially responsible for the disassembly of adhesion sites.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "1676568": 1
+    },
+    "gold_rank_general": {
+      "1676568": 1
+    },
+    "gold_titles": {
+      "1676568": "CLASPs link focal adhesion-associated microtubule capture to localized exocytosis and adhesion site turnover"
+    }
+  },
+  {
+    "claim_id": 1249,
+    "claim": "The peak incidence of fractures occurs in toddlers.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "7209559": 1
+    },
+    "gold_rank_general": {
+      "7209559": 1
+    },
+    "gold_titles": {
+      "7209559": "Incidence of childhood distal forearm fractures over 30 years: a population-based study."
+    }
+  },
+  {
+    "claim_id": 1260,
+    "claim": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is independent of the patient's genetic make-up.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "24341590": 1
+    },
+    "gold_rank_general": {
+      "24341590": 1
+    },
+    "gold_titles": {
+      "24341590": "Association between CYP2D6 polymorphisms and outcomes among women with early stage breast cancer treated with tamoxifen."
+    }
+  },
+  {
+    "claim_id": 1261,
+    "claim": "The removal of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "13023410": 1
+    },
+    "gold_rank_general": {
+      "13023410": 1
+    },
+    "gold_titles": {
+      "13023410": "BCR/ABL oncogenic kinase promotes unfaithful repair of the reactive oxygen species-dependent DNA double-strand breaks."
+    }
+  },
+  {
+    "claim_id": 1324,
+    "claim": "Treatment with a protein named FN restores regenerative abilities of aged muscles.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "19912367": 1
+    },
+    "gold_rank_general": {
+      "19912367": 1
+    },
+    "gold_titles": {
+      "19912367": "Loss of fibronectin from the aged stem cell niche affects the regenerative capacity of skeletal muscle in mice"
+    }
+  },
+  {
+    "claim_id": 1404,
+    "claim": "siRNA knockdown of A20 slows tumor progression in an in vivo murine xenograft model.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "33370": 2,
+      "38355793": 1
+    },
+    "gold_rank_general": {
+      "33370": 2,
+      "38355793": 1
+    },
+    "gold_titles": {
+      "33370": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+      "38355793": "A20 is overexpressed in glioma cells and may serve as a potential therapeutic target."
+    }
+  },
+  {
+    "claim_id": 167,
+    "claim": "Bariatric surgery leads to positive outcomes in mental health.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "18872233": 1
+    },
+    "gold_rank_general": {
+      "18872233": 1
+    },
+    "gold_titles": {
+      "18872233": "Mental Health Conditions Among Patients Seeking and Undergoing Bariatric Surgery: A Meta-analysis."
+    }
+  },
+  {
+    "claim_id": 177,
+    "claim": "Binding of p53 to enhancer regions (p53BERs) regulates the activity of p53 transcription and cell cycle arrest through the production of p53-dependent eRNAs.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "9669099": 1
+    },
+    "gold_rank_general": {
+      "9669099": 1
+    },
+    "gold_titles": {
+      "9669099": "eRNAs are required for p53-dependent enhancer activity and gene transcription."
+    }
+  },
+  {
+    "claim_id": 181,
+    "claim": "Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 prevents TDP-43-induced neuronal loss.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "16966326": 1
+    },
+    "gold_rank_general": {
+      "16966326": 1
+    },
+    "gold_titles": {
+      "16966326": "The Inhibition of TDP-43 Mitochondrial Localization Blocks Its Neuronal Toxicity"
+    }
+  },
+  {
+    "claim_id": 196,
+    "claim": "C2 works synergistically with A-769662 to activate dephosphorylated AMPK.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "19313533": 1
+    },
+    "gold_rank_general": {
+      "19313533": 1
+    },
+    "gold_titles": {
+      "19313533": "Structural basis of allosteric and synergistic activation of AMPK by furan-2-phosphonic derivative C2 binding."
+    }
+  },
+  {
+    "claim_id": 235,
+    "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4388470": 1
+    },
+    "gold_rank_general": {
+      "4388470": 1
+    },
+    "gold_titles": {
+      "4388470": "Somatic sex identity is cell-autonomous in the chicken"
+    }
+  },
+  {
+    "claim_id": 243,
+    "claim": "Cellular differentiation of embryonic stem cells is accompanied by changes in replication timing, transcription and nuclear localization.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "8148122": 1
+    },
+    "gold_rank_general": {
+      "8148122": 1
+    },
+    "gold_titles": {
+      "8148122": "Global Reorganization of Replication Domains During Embryonic Stem Cell Differentiation"
+    }
+  },
+  {
+    "claim_id": 256,
+    "claim": "Chlamydia trachomatis is most prevalent in the UK among sexually-experienced individuals aged 16 to 24.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "5850219": 1
+    },
+    "gold_rank_general": {
+      "5850219": 1
+    },
+    "gold_titles": {
+      "5850219": "Prevalence, risk factors, and uptake of interventions for sexually transmitted infections in Britain: findings from the National Surveys of Sexual Attitudes and Lifestyles (Natsal)"
+    }
+  },
+  {
+    "claim_id": 264,
+    "claim": "Citrullinated proteins externalized in neutrophil extracellular traps act indirectly to perpetuate the inflammatory cycle via induction of autoantibodies.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "11328820": 1
+    },
+    "gold_rank_general": {
+      "11328820": 1
+    },
+    "gold_titles": {
+      "11328820": "NETs are a source of citrullinated autoantigens and stimulate inflammatory responses in rheumatoid arthritis."
+    }
+  },
+  {
+    "claim_id": 265,
+    "claim": "Clathrin stabilizes the spindle fiber apparatus during mitosis.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "2033917": 1
+    },
+    "gold_rank_general": {
+      "2033917": 1
+    },
+    "gold_titles": {
+      "2033917": "Clathrin is required for the function of the mitotic spindle"
+    }
+  },
+  {
+    "claim_id": 286,
+    "claim": "Converting apoE4 to apoE3 by gene editing prevents the pathology associated with apoE4 in human iPSCderived neurons.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4709641": 1
+    },
+    "gold_rank_general": {
+      "4709641": 1
+    },
+    "gold_titles": {
+      "4709641": "Gain of toxic Apolipoprotein E4 effects in Human iPSC-Derived Neurons Is Ameliorated by a Small-Molecule Structure Corrector"
+    }
+  },
+  {
+    "claim_id": 287,
+    "claim": "Converting apoE4 to apoE3 by gene editing worsens the pathology associated with apoE4 in human iPSCderived neurons.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4709641": 1
+    },
+    "gold_rank_general": {
+      "4709641": 1
+    },
+    "gold_titles": {
+      "4709641": "Gain of toxic Apolipoprotein E4 effects in Human iPSC-Derived Neurons Is Ameliorated by a Small-Molecule Structure Corrector"
+    }
+  },
+  {
+    "claim_id": 296,
+    "claim": "Cyclin A2 destruction is necessary to switch from unstable to stable kt-mt attachments in mitosis.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4398832": 1
+    },
+    "gold_rank_general": {
+      "4398832": 1
+    },
+    "gold_titles": {
+      "4398832": "Cyclin A Regulates Kinetochore-Microtubules to Promote Faithful Chromosome Segregation"
+    }
+  },
+  {
+    "claim_id": 332,
+    "claim": "Depletion of T-helper 17 (Th17) cells during simian immunodeficiency virus (SIV) infection decreases dissemination of Salmonella Typhimurium from the gut.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "29023309": 1
+    },
+    "gold_rank_general": {
+      "29023309": 1
+    },
+    "gold_titles": {
+      "29023309": "Simian immunodeficiency virus\u2013induced mucosal interleukin-17 deficiency promotes Salmonella dissemination from the gut"
+    }
+  },
+  {
+    "claim_id": 341,
+    "claim": "Diabetes remission occurs more in people treated with conventional therapy than in people treated with laparoscopic adjustable gastric banding surgery.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "7098463": 1
+    },
+    "gold_rank_general": {
+      "7098463": 1
+    },
+    "gold_titles": {
+      "7098463": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial."
+    }
+  },
+  {
+    "claim_id": 349,
+    "claim": "Diminished ovarian reserve is a reliable indicator of infertility in a non-infertile population.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "13497630": 1
+    },
+    "gold_rank_general": {
+      "13497630": 1
+    },
+    "gold_titles": {
+      "13497630": "Association Between Biomarkers of Ovarian Reserve and Infertility Among Older Women of Reproductive Age"
+    }
+  },
+  {
+    "claim_id": 375,
+    "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "1522647": 1
+    },
+    "gold_rank_general": {
+      "1522647": 1
+    },
+    "gold_titles": {
+      "1522647": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation"
+    }
+  },
+  {
+    "claim_id": 379,
+    "claim": "Enhanced early production of inflammatory chemokines damages viral control in the lung.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "19005293": 1
+    },
+    "gold_rank_general": {
+      "19005293": 1
+    },
+    "gold_titles": {
+      "19005293": "Memory CD4+ T cells induce innate responses independently of pathogen"
+    }
+  },
+  {
+    "claim_id": 381,
+    "claim": "Environmental factors can influence the development of breast cancer.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "18340282": 1
+    },
+    "gold_rank_general": {
+      "18340282": 1
+    },
+    "gold_titles": {
+      "18340282": "Gene\u2013environment interactions in 7610 women with breast cancer: prospective evidence from the Million Women Study"
+    }
+  },
+  {
+    "claim_id": 400,
+    "claim": "Exposure to fine particulate air pollution is unrelated to anxiety prevalence.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "791050": 1
+    },
+    "gold_rank_general": {
+      "791050": 1
+    },
+    "gold_titles": {
+      "791050": "The relation between past exposure to fine particulate air pollution and prevalent anxiety: observational cohort study"
+    }
+  },
+  {
+    "claim_id": 479,
+    "claim": "Gpr124 increases BBB breakdown in mouse models of ischemic stroke.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "6325527": 1
+    },
+    "gold_rank_general": {
+      "6325527": 1
+    },
+    "gold_titles": {
+      "6325527": "Gpr124 is essential for blood\u2013brain barrier integrity in central nervous system disease"
+    }
+  },
+  {
+    "claim_id": 523,
+    "claim": "Higher plasma levels of I-carnitine, when associated with trimethylamine N-oxide, are negatively correlated with cardiovascular events in humans.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "14803797": 1
+    },
+    "gold_rank_general": {
+      "14803797": 1
+    },
+    "gold_titles": {
+      "14803797": "Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis"
+    }
+  },
+  {
+    "claim_id": 537,
+    "claim": "Hypocretin neurones suppress panicprone state in rats.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "16056514": 1
+    },
+    "gold_rank_general": {
+      "16056514": 1
+    },
+    "gold_titles": {
+      "16056514": "A KEY ROLE FOR OREXIN IN PANIC ANXIETY"
+    }
+  },
+  {
+    "claim_id": 559,
+    "claim": "Immune responses in immune cells are geographically segregated.",
+    "ndcg10_bm25": 0.0,
+    "ndcg10_general": 0.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "3475317": null
+    },
+    "gold_rank_general": {
+      "3475317": 16
+    },
+    "gold_titles": {
+      "3475317": "Inflammatory signaling in human Tuberculosis granulomas is spatially organized"
+    }
+  },
+  {
+    "claim_id": 562,
+    "claim": "Improvements in OER catalysts show stable activity over several hundred hours.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "20101846": 1
+    },
+    "gold_rank_general": {
+      "20101846": 1
+    },
+    "gold_titles": {
+      "20101846": "Homogeneously dispersed multimetal oxygen-evolving catalysts"
+    }
+  },
+  {
+    "claim_id": 566,
+    "claim": "In S. cerevisiae, the absence of RNA surveillance pathways reduces sensitivity to high iron conditions.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "16120395": 1
+    },
+    "gold_rank_general": {
+      "16120395": 1
+    },
+    "gold_titles": {
+      "16120395": "Multiple RNA surveillance pathways limit aberrant expression of iron uptake mRNAs and prevent iron toxicity in S. cerevisiae."
+    }
+  },
+  {
+    "claim_id": 594,
+    "claim": "Incidence of heart failure increased by 10% in women since 1979.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "19675911": 1
+    },
+    "gold_rank_general": {
+      "19675911": 1
+    },
+    "gold_titles": {
+      "19675911": "Trends in heart failure incidence and survival in a community-based population."
+    }
+  },
+  {
+    "claim_id": 600,
+    "claim": "Including pharmacists in rounding teams does not alter the incidence of adverse drug events (ADEs).",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "12258338": 1
+    },
+    "gold_rank_general": {
+      "12258338": 1
+    },
+    "gold_titles": {
+      "12258338": "Pharmacist participation on physician rounds and adverse drug events in the intensive care unit."
+    }
+  },
+  {
+    "claim_id": 601,
+    "claim": "Including pharmacists in rounding teams reduces the incidence of adverse drug events (ADEs).",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "12258338": 1
+    },
+    "gold_rank_general": {
+      "12258338": 1
+    },
+    "gold_titles": {
+      "12258338": "Pharmacist participation on physician rounds and adverse drug events in the intensive care unit."
+    }
+  },
+  {
+    "claim_id": 615,
+    "claim": "Increased microtubule acetylation worsens interference of axonal transport caused by LRRK2 Roc-COR domain mutations.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "9638032": 1
+    },
+    "gold_rank_general": {
+      "9638032": 1
+    },
+    "gold_titles": {
+      "9638032": "Increasing microtubule acetylation rescues axonal transport and locomotor deficits caused by LRRK2 Roc-COR domain mutations"
+    }
+  },
+  {
+    "claim_id": 631,
+    "claim": "Inhibiting HDAC6 increases survival of mice with ARID1A mutated tumors.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "5468807": 1
+    },
+    "gold_rank_general": {
+      "5468807": 1
+    },
+    "gold_titles": {
+      "5468807": "ARID1A-mutated ovarian cancers depend on HDAC6 activity"
+    }
+  },
+  {
+    "claim_id": 669,
+    "claim": "Klf4 is not required for proper myeloid cell differentiation.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "25148216": 1
+    },
+    "gold_rank_general": {
+      "25148216": 1
+    },
+    "gold_titles": {
+      "25148216": "Kruppel-like factor 4 is essential for inflammatory monocyte differentiation in vivo."
+    }
+  },
+  {
+    "claim_id": 670,
+    "claim": "Knockout proximal tubule-specific deletion of the BMP receptor Alk3 causes epithelial damage.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "5573975": 1
+    },
+    "gold_rank_general": {
+      "5573975": 1
+    },
+    "gold_titles": {
+      "5573975": "Activin\u2013like kinase\u20133 activity is important for kidney regeneration and reversal of fibrosis"
+    }
+  },
+  {
+    "claim_id": 68,
+    "claim": "Activated Cdk5 regulates DNA damage-induced neuronal death.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "21295300": 1
+    },
+    "gold_rank_general": {
+      "21295300": 1
+    },
+    "gold_titles": {
+      "21295300": "Phosphorylation of ATM by Cdk5 mediates DNA damage signaling and regulates neuronal death"
+    }
+  },
+  {
+    "claim_id": 682,
+    "claim": "Lack of FGF21 in mice leads to reduced lifespan.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "9315213": 1
+    },
+    "gold_rank_general": {
+      "9315213": 1
+    },
+    "gold_titles": {
+      "9315213": "Fibroblast Growth Factor 21 Prevents Atherosclerosis by Suppression of Hepatic Sterol Regulatory Element-Binding Protein-2 and Induction of Adiponectin in Mice"
+    }
+  },
+  {
+    "claim_id": 734,
+    "claim": "MEK inhibitors are effective treatments in RAS-driven mouse models of cancer.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4961038": 1
+    },
+    "gold_rank_general": {
+      "4961038": 1
+    },
+    "gold_titles": {
+      "4961038": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers"
+    }
+  },
+  {
+    "claim_id": 747,
+    "claim": "MafA ubiquitination decreases the recruitment of coavtivator P/CAF by MafA.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "11291348": 1
+    },
+    "gold_rank_general": {
+      "11291348": 1
+    },
+    "gold_titles": {
+      "11291348": "GSK-3-mediated phosphorylation enhances Maf-transforming activity."
+    }
+  },
+  {
+    "claim_id": 751,
+    "claim": "Major vault protein (MVP) leads to more aggressive tumors by regulating the sorting of tumor suppressive miR-193a into extracellular vesicles (EVs).",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "19800147": 1
+    },
+    "gold_rank_general": {
+      "19800147": 1
+    },
+    "gold_titles": {
+      "19800147": "MVP-mediated exosomal sorting of miR-193a promotes colon cancer progression"
+    }
+  },
+  {
+    "claim_id": 779,
+    "claim": "Mice lacking Sirt1 in Sf1-expressing neurons have increased susceptibility to diet-induced obesity and insulin resistance.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "13001323": 1
+    },
+    "gold_rank_general": {
+      "13001323": 1
+    },
+    "gold_titles": {
+      "13001323": "SIRT1 deacetylase in SF1 neurons protects against metabolic imbalance."
+    }
+  },
+  {
+    "claim_id": 780,
+    "claim": "Mice that lack Interferon-\u03b3 or its receptor are highly susceptible to experimental autoimmune myocarditis.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "8246922": 1,
+      "24338780": 2
+    },
+    "gold_rank_general": {
+      "8246922": 2,
+      "24338780": 1
+    },
+    "gold_titles": {
+      "8246922": "the Development of Autoimmune Myocarditis in Mice by an",
+      "24338780": "Lethal autoimmune myocarditis in interferon-gamma receptor-deficient mice: enhanced disease severity by impaired inducible nitric oxide synthase induction."
+    }
+  },
+  {
+    "claim_id": 788,
+    "claim": "Microcin J25 inhibits nucleoside triphosphate (NTP) binding.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "4740447": 1
+    },
+    "gold_rank_general": {
+      "4740447": 1
+    },
+    "gold_titles": {
+      "4740447": "Antibacterial peptide microcin J25 inhibits transcription by binding within and obstructing the RNA polymerase secondary channel."
+    }
+  },
+  {
+    "claim_id": 792,
+    "claim": "Misunderstandings between doctors and patients can lead to non-adherence.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "3610080": 1
+    },
+    "gold_rank_general": {
+      "3610080": 1
+    },
+    "gold_titles": {
+      "3610080": "Misunderstandings in prescribing decisions in general practice: qualitative study."
+    }
+  },
+  {
+    "claim_id": 801,
+    "claim": "Monoclonal antibody targeting of N-cadherin encourages castration resistance.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "22180793": 1
+    },
+    "gold_rank_general": {
+      "22180793": 1
+    },
+    "gold_titles": {
+      "22180793": "Monoclonal antibody targeting of N-cadherin inhibits prostate cancer growth, metastasis and castration resistance"
+    }
+  },
+  {
+    "claim_id": 815,
+    "claim": "Mutations in RIM1 decrease levels of IME1 RNA.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "8148304": 1
+    },
+    "gold_rank_general": {
+      "8148304": 1
+    },
+    "gold_titles": {
+      "8148304": "Molecular characterization of the yeast meiotic regulatory gene RIM1."
+    }
+  },
+  {
+    "claim_id": 825,
+    "claim": "N348I mutations reduce resistance to nevirapine.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "15319019": 1
+    },
+    "gold_rank_general": {
+      "15319019": 1
+    },
+    "gold_titles": {
+      "15319019": "N348I in the Connection Domain of HIV-1 Reverse Transcriptase Confers Zidovudine and Nevirapine Resistance"
+    }
+  },
+  {
+    "claim_id": 883,
+    "claim": "Omnivores produce more trimethylamine N-oxide from dietary I-carnitine than vegans.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "14803797": 1
+    },
+    "gold_rank_general": {
+      "14803797": 1
+    },
+    "gold_titles": {
+      "14803797": "Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis"
+    }
+  },
+  {
+    "claim_id": 884,
+    "claim": "Omnivores produce more trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "14803797": 1
+    },
+    "gold_rank_general": {
+      "14803797": 1
+    },
+    "gold_titles": {
+      "14803797": "Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis"
+    }
+  },
+  {
+    "claim_id": 885,
+    "claim": "One in five surgical randomized controlled trials are discontinued early.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "6477536": 1
+    },
+    "gold_rank_general": {
+      "6477536": 1
+    },
+    "gold_titles": {
+      "6477536": "Discontinuation and non-publication of surgical randomised controlled trials: observational study"
+    }
+  },
+  {
+    "claim_id": 886,
+    "claim": "One in two surgical randomized controlled trials are discontinued early.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "6477536": 1
+    },
+    "gold_rank_general": {
+      "6477536": 1
+    },
+    "gold_titles": {
+      "6477536": "Discontinuation and non-publication of surgical randomised controlled trials: observational study"
+    }
+  },
+  {
+    "claim_id": 930,
+    "claim": "Patients with panic anxiety show decreased CSF levels of hypocretin.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "16056514": 1
+    },
+    "gold_rank_general": {
+      "16056514": 1
+    },
+    "gold_titles": {
+      "16056514": "A KEY ROLE FOR OREXIN IN PANIC ANXIETY"
+    }
+  },
+  {
+    "claim_id": 952,
+    "claim": "Pioglitazone use is not associated with an increased risk of prostate cancer.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "3355397": 1
+    },
+    "gold_rank_general": {
+      "3355397": 1
+    },
+    "gold_titles": {
+      "3355397": "Pioglitazone Use and Risk of Bladder Cancer and Other Common Cancers in Persons With Diabetes."
+    }
+  },
+  {
+    "claim_id": 953,
+    "claim": "Pioglitazone use is significantly associated with an increased risk of pancreatic cancer.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "3355397": 1
+    },
+    "gold_rank_general": {
+      "3355397": 1
+    },
+    "gold_titles": {
+      "3355397": "Pioglitazone Use and Risk of Bladder Cancer and Other Common Cancers in Persons With Diabetes."
+    }
+  },
+  {
+    "claim_id": 954,
+    "claim": "Pioglitazone use is significantly associated with an increased risk of prostate cancer.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "3355397": 1
+    },
+    "gold_rank_general": {
+      "3355397": 1
+    },
+    "gold_titles": {
+      "3355397": "Pioglitazone Use and Risk of Bladder Cancer and Other Common Cancers in Persons With Diabetes."
+    }
+  },
+  {
+    "claim_id": 98,
+    "claim": "Alirocumab treatment reduces apo(a) fractional clearance rate.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "6540064": 1
+    },
+    "gold_rank_general": {
+      "6540064": 1
+    },
+    "gold_titles": {
+      "6540064": "Effects of PCSK9 Inhibition With Alirocumab on Lipoprotein Metabolism in Healthy Humans"
+    }
+  },
+  {
+    "claim_id": 984,
+    "claim": "Pseudogene PTENP1 encodes a transcript that regulates PTEN expression.",
+    "ndcg10_bm25": 1.0,
+    "ndcg10_general": 1.0,
+    "delta": 0.0,
+    "gold_rank_bm25": {
+      "6828370": 1
+    },
+    "gold_rank_general": {
+      "6828370": 1
+    },
+    "gold_titles": {
+      "6828370": "A coding-independent function of gene and pseudogene mRNAs regulates tumour biology"
+    }
+  },
+  {
+    "claim_id": 1028,
+    "claim": "Reduced responsiveness to interleukin-2 in regulatory T cells is associated with autoimmune diseases such as Type 1 Diabetes.",
+    "ndcg10_bm25": 0.9197,
+    "ndcg10_general": 1.0,
+    "delta": -0.0803,
+    "gold_rank_bm25": {
+      "11899391": 1,
+      "13923140": 3
+    },
+    "gold_rank_general": {
+      "11899391": 1,
+      "13923140": 2
+    },
+    "gold_titles": {
+      "11899391": "Type 1 diabetes-associated IL2RA variation lowers IL-2 signaling and contributes to diminished CD4+CD25+ regulatory T cell function.",
+      "13923140": "Interleukin-2 gene variation impairs regulatory T cell function and causes autoimmunity"
+    }
+  },
+  {
+    "claim_id": 964,
+    "claim": "Pre-mRNAs associated with spliceosomal components are more stable than unassociated splicing substrates.",
+    "ndcg10_bm25": 0.3333,
+    "ndcg10_general": 0.5,
+    "delta": -0.1667,
+    "gold_rank_bm25": {
+      "4162857": 7
+    },
+    "gold_rank_general": {
+      "4162857": 3
+    },
+    "gold_titles": {
+      "4162857": "Linking Splicing to Pol II Transcription Stabilizes Pre-mRNAs and Influences Splicing Patterns"
+    }
+  },
+  {
+    "claim_id": 738,
+    "claim": "MICAL redox enzymes regulate actin dynamics.",
+    "ndcg10_bm25": 0.5307,
+    "ndcg10_general": 0.7123,
+    "delta": -0.1816,
+    "gold_rank_bm25": {
+      "6609935": 2,
+      "16562534": 3,
+      "33912020": 42
+    },
+    "gold_rank_general": {
+      "6609935": 2,
+      "16562534": 3,
+      "33912020": 5
+    },
+    "gold_titles": {
+      "6609935": "Differential regulation of actin microfilaments by human MICAL proteins.",
+      "16562534": "Drosophila MICAL regulates myofilament organization and synaptic structure",
+      "33912020": "Thioredoxin mediates oxidation-dependent phosphorylation of CRMP2 and growth cone collapse."
+    }
+  },
+  {
+    "claim_id": 531,
+    "claim": "Human embryonic stem cells have the capacity to give rise to differentiated progeny representative of all three embryonic germ layers.",
+    "ndcg10_bm25": 0.6338,
+    "ndcg10_general": 0.8452,
+    "delta": -0.2114,
+    "gold_rank_bm25": {
+      "10546779": 10,
+      "25413327": 2,
+      "36651210": 4
+    },
+    "gold_rank_general": {
+      "10546779": 9,
+      "25413327": 1,
+      "36651210": 3
+    },
+    "gold_titles": {
+      "10546779": "Evidence of a pluripotent human embryonic stem cell line derived from a cloned blastocyst.",
+      "25413327": "Clonally derived human embryonic stem cell lines maintain pluripotency and proliferative potential for prolonged periods of culture.",
+      "36651210": "Establishment and in vitro differentiation of a new embryonic stem cell line from human blastocyst."
+    }
+  },
+  {
+    "claim_id": 413,
+    "claim": "Female carriers of the Apolipoprotein E4 (APOE4) allele have decreased risk for dementia.",
+    "ndcg10_bm25": 0.3333,
+    "ndcg10_general": 0.6309,
+    "delta": -0.2976,
+    "gold_rank_bm25": {
+      "6309659": 7
+    },
+    "gold_rank_general": {
+      "6309659": 2
+    },
+    "gold_titles": {
+      "6309659": "Reproductive period and risk of dementia in postmenopausal women."
+    }
+  },
+  {
+    "claim_id": 447,
+    "claim": "Gastric infection with Helicobacter pylori decreases risk of gastric cancer in humans.",
+    "ndcg10_bm25": 0.6309,
+    "ndcg10_general": 1.0,
+    "delta": -0.3691,
+    "gold_rank_bm25": {
+      "2052720": 2
+    },
+    "gold_rank_general": {
+      "2052720": 1
+    },
+    "gold_titles": {
+      "2052720": "Association between infection with Helicobacter pylori and risk of gastric cancer: evidence from a prospective investigation."
+    }
+  },
+  {
+    "claim_id": 61,
+    "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+    "ndcg10_bm25": 0.6309,
+    "ndcg10_general": 1.0,
+    "delta": -0.3691,
+    "gold_rank_bm25": {
+      "13899137": 2
+    },
+    "gold_rank_general": {
+      "13899137": 1
+    },
+    "gold_titles": {
+      "13899137": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa"
+    }
+  },
+  {
+    "claim_id": 355,
+    "claim": "Drosophila supracellular actomyosin structures are found at boundaries in wing imaginal discs.",
+    "ndcg10_bm25": 0.5013,
+    "ndcg10_general": 0.9197,
+    "delta": -0.4184,
+    "gold_rank_bm25": {
+      "12800122": 5,
+      "38380061": 4
+    },
+    "gold_rank_general": {
+      "12800122": 3,
+      "38380061": 1
+    },
+    "gold_titles": {
+      "12800122": "Increased Cell Bond Tension Governs Cell Sorting at the Drosophila Anteroposterior Compartment Boundary",
+      "38380061": "Localization and requirement for Myosin II at the dorsal-ventral compartment boundary of the Drosophila wing."
+    }
+  },
+  {
+    "claim_id": 189,
+    "claim": "Broadly HIV-1 Neutralizing Antibodies (bnAb) 10EB have no affinity for phospholipids.",
+    "ndcg10_bm25": 0.5,
+    "ndcg10_general": 1.0,
+    "delta": -0.5,
+    "gold_rank_bm25": {
+      "4421578": 3
+    },
+    "gold_rank_general": {
+      "4421578": 1
+    },
+    "gold_titles": {
+      "4421578": "Broad and potent neutralization of HIV-1 by a gp41-specific human antibody"
+    }
+  },
+  {
+    "claim_id": 417,
+    "claim": "Female carriers of the Apolipoprotein E4 (APOE4) allele have shorter lifetime exposure to estrogen due to a decreased reproductive period.",
+    "ndcg10_bm25": 0.5,
+    "ndcg10_general": 1.0,
+    "delta": -0.5,
+    "gold_rank_bm25": {
+      "6309659": 3
+    },
+    "gold_rank_general": {
+      "6309659": 1
+    },
+    "gold_titles": {
+      "6309659": "Reproductive period and risk of dementia in postmenopausal women."
+    }
+  },
+  {
+    "claim_id": 430,
+    "claim": "FoxO3a activation in neuronal death is inhibited by reactive oxygen species (ROS).",
+    "ndcg10_bm25": 0.0,
+    "ndcg10_general": 0.5,
+    "delta": -0.5,
+    "gold_rank_bm25": {
+      "28937856": null
+    },
+    "gold_rank_general": {
+      "28937856": 3
+    },
+    "gold_titles": {
+      "28937856": "Stress-dependent regulation of FOXO transcription factors by the SIRT1 deacetylase."
+    }
+  },
+  {
+    "claim_id": 55,
+    "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+    "ndcg10_bm25": 0.4307,
+    "ndcg10_general": 1.0,
+    "delta": -0.5693,
+    "gold_rank_bm25": {
+      "49556906": 4
+    },
+    "gold_rank_general": {
+      "49556906": 1
+    },
+    "gold_titles": {
+      "49556906": "Metformin reverses established lung fibrosis in a bleomycin model"
+    }
+  },
+  {
+    "claim_id": 382,
+    "claim": "Environmentally-induced senescence is mimicked in disease modeling by adding specific molecules to the culture system.",
+    "ndcg10_bm25": 0.0,
+    "ndcg10_general": 0.6309,
+    "delta": -0.6309,
+    "gold_rank_bm25": {
+      "11659421": 93
+    },
+    "gold_rank_general": {
+      "11659421": 2
+    },
+    "gold_titles": {
+      "11659421": "Human iPSC-based modeling of late-onset disease via progerin-induced aging."
+    }
+  },
+  {
+    "claim_id": 88,
+    "claim": "Adult tissue-resident macrophages possess a self-renewing capacity.",
+    "ndcg10_bm25": 0.0,
+    "ndcg10_general": 0.6309,
+    "delta": -0.6309,
+    "gold_rank_bm25": {
+      "7521113": 16
+    },
+    "gold_rank_general": {
+      "7521113": 2
+    },
+    "gold_titles": {
+      "7521113": "Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis."
+    }
+  },
+  {
+    "claim_id": 1246,
+    "claim": "The one-child policy has created a hospitable environment for female infants.",
+    "ndcg10_bm25": 0.3562,
+    "ndcg10_general": 1.0,
+    "delta": -0.6438,
+    "gold_rank_bm25": {
+      "7662395": 6
+    },
+    "gold_rank_general": {
+      "7662395": 1
+    },
+    "gold_titles": {
+      "7662395": "Perinatal mortality in rural China: retrospective cohort study."
+    }
+  },
+  {
+    "claim_id": 645,
+    "claim": "Intake of folic acid (FA) and vitamin B6 (VB6) increases levels of homocysteine.",
+    "ndcg10_bm25": 0.3562,
+    "ndcg10_general": 1.0,
+    "delta": -0.6438,
+    "gold_rank_bm25": {
+      "12810152": 6
+    },
+    "gold_rank_general": {
+      "12810152": 1
+    },
+    "gold_titles": {
+      "12810152": "Folate and vitamin B6 from diet and supplements in relation to risk of coronary heart disease among women."
+    }
+  },
+  {
+    "claim_id": 766,
+    "claim": "Medications to treat obesity have unwanted side effects.",
+    "ndcg10_bm25": 0.3562,
+    "ndcg10_general": 1.0,
+    "delta": -0.6438,
+    "gold_rank_bm25": {
+      "7552215": 6
+    },
+    "gold_rank_general": {
+      "7552215": 1
+    },
+    "gold_titles": {
+      "7552215": "Long term pharmacotherapy for obesity and overweight: updated meta-analysis."
+    }
+  },
+  {
+    "claim_id": 1311,
+    "claim": "Trans-acting factors, such as lncRNAs, influence mRNA translation.",
+    "ndcg10_bm25": 0.3333,
+    "ndcg10_general": 1.0,
+    "delta": -0.6667,
+    "gold_rank_bm25": {
+      "13763195": 7
+    },
+    "gold_rank_general": {
+      "13763195": 1
+    },
+    "gold_titles": {
+      "13763195": "LincRNA-p21 suppresses target mRNA translation."
+    }
+  },
+  {
+    "claim_id": 1156,
+    "claim": "The DESMOND program caused substantial weight loss in most participants.",
+    "ndcg10_bm25": 0.3155,
+    "ndcg10_general": 1.0,
+    "delta": -0.6845,
+    "gold_rank_bm25": {
+      "12584053": 8
+    },
+    "gold_rank_general": {
+      "12584053": 1
+    },
+    "gold_titles": {
+      "12584053": "Effectiveness of a diabetes education and self management programme (DESMOND) for people with newly diagnosed type 2 diabetes mellitus: three year follow-up of a cluster randomised controlled trial in primary care"
+    }
+  },
+  {
+    "claim_id": 463,
+    "claim": "Genomic aberrations of metastases provide information for targeted therapy.",
+    "ndcg10_bm25": 0.2891,
+    "ndcg10_general": 1.0,
+    "delta": -0.7109,
+    "gold_rank_bm25": {
+      "19736671": 10
+    },
+    "gold_rank_general": {
+      "19736671": 1
+    },
+    "gold_titles": {
+      "19736671": "Evolution of metastasis revealed by mutational landscapes of chemically induced skin cancers"
+    }
+  },
+  {
+    "claim_id": 541,
+    "claim": "Hypothalamic glutamate neurotransmission is unrelated to energy balance.",
+    "ndcg10_bm25": 0.2044,
+    "ndcg10_general": 0.9197,
+    "delta": -0.7153,
+    "gold_rank_bm25": {
+      "11886686": 7,
+      "45154987": 13
+    },
+    "gold_rank_general": {
+      "11886686": 3,
+      "45154987": 1
+    },
+    "gold_titles": {
+      "11886686": "Synaptic glutamate release by ventromedial hypothalamic neurons is part of the neurocircuitry that prevents hypoglycemia.",
+      "45154987": "Glutamate mediates the function of melanocortin receptor 4 on Sim1 neurons in body weight regulation."
+    }
+  }
+]

@@ -1,0 +1,6179 @@
+{
+  "single_systems_val": {
+    "bm25": {
+      "ndcg@10": 0.8676,
+      "recall@100": 0.9811,
+      "mrr": 0.8447
+    },
+    "general": {
+      "ndcg@10": 0.9328,
+      "recall@100": 1.0,
+      "mrr": 0.9191
+    },
+    "scientific": {
+      "ndcg@10": 0.8339,
+      "recall@100": 1.0,
+      "mrr": 0.8076
+    }
+  },
+  "fusion_grid": [
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "ndcg@10": 0.9314,
+      "recall@100": 1.0,
+      "mrr": 0.9186
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 5,
+      "ndcg@10": 0.9322,
+      "recall@100": 1.0,
+      "mrr": 0.9184
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 10,
+      "ndcg@10": 0.9323,
+      "recall@100": 1.0,
+      "mrr": 0.9184
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 20,
+      "ndcg@10": 0.9306,
+      "recall@100": 1.0,
+      "mrr": 0.9163
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 40,
+      "ndcg@10": 0.929,
+      "recall@100": 1.0,
+      "mrr": 0.9144
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 60,
+      "ndcg@10": 0.9291,
+      "recall@100": 1.0,
+      "mrr": 0.9144
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 80,
+      "ndcg@10": 0.9285,
+      "recall@100": 1.0,
+      "mrr": 0.9136
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.1,
+        0.9
+      ],
+      "k": 100,
+      "ndcg@10": 0.9283,
+      "recall@100": 1.0,
+      "mrr": 0.9135
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "ndcg@10": 0.9282,
+      "recall@100": 1.0,
+      "mrr": 0.908
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 5,
+      "ndcg@10": 0.9284,
+      "recall@100": 1.0,
+      "mrr": 0.9133
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 10,
+      "ndcg@10": 0.9313,
+      "recall@100": 1.0,
+      "mrr": 0.9172
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 20,
+      "ndcg@10": 0.9274,
+      "recall@100": 1.0,
+      "mrr": 0.9112
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 40,
+      "ndcg@10": 0.927,
+      "recall@100": 1.0,
+      "mrr": 0.9107
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 60,
+      "ndcg@10": 0.9232,
+      "recall@100": 1.0,
+      "mrr": 0.9056
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 80,
+      "ndcg@10": 0.9232,
+      "recall@100": 1.0,
+      "mrr": 0.9056
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.2,
+        0.8
+      ],
+      "k": 100,
+      "ndcg@10": 0.9228,
+      "recall@100": 1.0,
+      "mrr": 0.9052
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "ndcg@10": 0.9278,
+      "recall@100": 1.0,
+      "mrr": 0.9116
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 5,
+      "ndcg@10": 0.9266,
+      "recall@100": 1.0,
+      "mrr": 0.9077
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 10,
+      "ndcg@10": 0.9258,
+      "recall@100": 1.0,
+      "mrr": 0.9064
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 20,
+      "ndcg@10": 0.9257,
+      "recall@100": 1.0,
+      "mrr": 0.9064
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 40,
+      "ndcg@10": 0.9226,
+      "recall@100": 1.0,
+      "mrr": 0.9007
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 60,
+      "ndcg@10": 0.9226,
+      "recall@100": 1.0,
+      "mrr": 0.9007
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 80,
+      "ndcg@10": 0.9218,
+      "recall@100": 1.0,
+      "mrr": 0.8997
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.3,
+        0.7
+      ],
+      "k": 100,
+      "ndcg@10": 0.9215,
+      "recall@100": 1.0,
+      "mrr": 0.8994
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "ndcg@10": 0.9091,
+      "recall@100": 0.9906,
+      "mrr": 0.8889
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 5,
+      "ndcg@10": 0.9256,
+      "recall@100": 1.0,
+      "mrr": 0.9063
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 10,
+      "ndcg@10": 0.9254,
+      "recall@100": 1.0,
+      "mrr": 0.9063
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 20,
+      "ndcg@10": 0.9205,
+      "recall@100": 1.0,
+      "mrr": 0.9
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 40,
+      "ndcg@10": 0.9195,
+      "recall@100": 1.0,
+      "mrr": 0.8989
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 60,
+      "ndcg@10": 0.9166,
+      "recall@100": 1.0,
+      "mrr": 0.8985
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 80,
+      "ndcg@10": 0.9166,
+      "recall@100": 1.0,
+      "mrr": 0.8984
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "k": 100,
+      "ndcg@10": 0.9165,
+      "recall@100": 1.0,
+      "mrr": 0.8982
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "ndcg@10": 0.8978,
+      "recall@100": 0.9906,
+      "mrr": 0.8788
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 5,
+      "ndcg@10": 0.9286,
+      "recall@100": 1.0,
+      "mrr": 0.911
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 10,
+      "ndcg@10": 0.9242,
+      "recall@100": 1.0,
+      "mrr": 0.9052
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 20,
+      "ndcg@10": 0.9202,
+      "recall@100": 1.0,
+      "mrr": 0.904
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 40,
+      "ndcg@10": 0.917,
+      "recall@100": 1.0,
+      "mrr": 0.9033
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 60,
+      "ndcg@10": 0.917,
+      "recall@100": 1.0,
+      "mrr": 0.903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 80,
+      "ndcg@10": 0.9157,
+      "recall@100": 1.0,
+      "mrr": 0.903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "k": 100,
+      "ndcg@10": 0.9157,
+      "recall@100": 1.0,
+      "mrr": 0.903
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "ndcg@10": 0.8873,
+      "recall@100": 0.9906,
+      "mrr": 0.8687
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 5,
+      "ndcg@10": 0.9057,
+      "recall@100": 1.0,
+      "mrr": 0.8848
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 10,
+      "ndcg@10": 0.9054,
+      "recall@100": 1.0,
+      "mrr": 0.8891
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 20,
+      "ndcg@10": 0.9022,
+      "recall@100": 1.0,
+      "mrr": 0.8846
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 40,
+      "ndcg@10": 0.9019,
+      "recall@100": 1.0,
+      "mrr": 0.8842
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 60,
+      "ndcg@10": 0.902,
+      "recall@100": 1.0,
+      "mrr": 0.8841
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 80,
+      "ndcg@10": 0.902,
+      "recall@100": 1.0,
+      "mrr": 0.8841
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "k": 100,
+      "ndcg@10": 0.902,
+      "recall@100": 1.0,
+      "mrr": 0.884
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "ndcg@10": 0.8856,
+      "recall@100": 0.9906,
+      "mrr": 0.8669
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.8894,
+      "recall@100": 1.0,
+      "mrr": 0.8676
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.8899,
+      "recall@100": 1.0,
+      "mrr": 0.869
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.8924,
+      "recall@100": 1.0,
+      "mrr": 0.87
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.8937,
+      "recall@100": 1.0,
+      "mrr": 0.8715
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.8936,
+      "recall@100": 0.9906,
+      "mrr": 0.8714
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.8973,
+      "recall@100": 0.9906,
+      "mrr": 0.8764
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.8977,
+      "recall@100": 0.9906,
+      "mrr": 0.8772
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "ndcg@10": 0.8772,
+      "recall@100": 0.9906,
+      "mrr": 0.8559
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.8778,
+      "recall@100": 1.0,
+      "mrr": 0.8571
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.8781,
+      "recall@100": 0.9906,
+      "mrr": 0.8571
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.8831,
+      "recall@100": 0.9906,
+      "mrr": 0.8618
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.8831,
+      "recall@100": 0.9906,
+      "mrr": 0.8617
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.8839,
+      "recall@100": 0.9906,
+      "mrr": 0.8622
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.884,
+      "recall@100": 0.9906,
+      "mrr": 0.8622
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.8,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.884,
+      "recall@100": 0.9906,
+      "mrr": 0.8622
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "ndcg@10": 0.8711,
+      "recall@100": 0.9906,
+      "mrr": 0.8491
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.8708,
+      "recall@100": 0.9906,
+      "mrr": 0.847
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.8715,
+      "recall@100": 0.9906,
+      "mrr": 0.8473
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.8738,
+      "recall@100": 0.9906,
+      "mrr": 0.8523
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.8755,
+      "recall@100": 0.9906,
+      "mrr": 0.8541
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.8758,
+      "recall@100": 0.9906,
+      "mrr": 0.8543
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.876,
+      "recall@100": 0.9906,
+      "mrr": 0.8546
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general"
+      ],
+      "weights": [
+        0.9,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.8762,
+      "recall@100": 0.9906,
+      "mrr": 0.8549
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "ndcg@10": 0.8672,
+      "recall@100": 1.0,
+      "mrr": 0.8426
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 5,
+      "ndcg@10": 0.8473,
+      "recall@100": 1.0,
+      "mrr": 0.8182
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 10,
+      "ndcg@10": 0.8567,
+      "recall@100": 1.0,
+      "mrr": 0.8306
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 20,
+      "ndcg@10": 0.857,
+      "recall@100": 1.0,
+      "mrr": 0.8308
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 40,
+      "ndcg@10": 0.8591,
+      "recall@100": 1.0,
+      "mrr": 0.8316
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 60,
+      "ndcg@10": 0.8592,
+      "recall@100": 1.0,
+      "mrr": 0.8316
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 80,
+      "ndcg@10": 0.8617,
+      "recall@100": 1.0,
+      "mrr": 0.8331
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "k": 100,
+      "ndcg@10": 0.8617,
+      "recall@100": 1.0,
+      "mrr": 0.833
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "ndcg@10": 0.8804,
+      "recall@100": 1.0,
+      "mrr": 0.8526
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 5,
+      "ndcg@10": 0.8619,
+      "recall@100": 1.0,
+      "mrr": 0.836
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 10,
+      "ndcg@10": 0.8612,
+      "recall@100": 1.0,
+      "mrr": 0.8346
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 20,
+      "ndcg@10": 0.863,
+      "recall@100": 1.0,
+      "mrr": 0.8363
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 40,
+      "ndcg@10": 0.869,
+      "recall@100": 1.0,
+      "mrr": 0.8424
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 60,
+      "ndcg@10": 0.8689,
+      "recall@100": 1.0,
+      "mrr": 0.8423
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 80,
+      "ndcg@10": 0.8683,
+      "recall@100": 1.0,
+      "mrr": 0.8415
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "k": 100,
+      "ndcg@10": 0.8683,
+      "recall@100": 1.0,
+      "mrr": 0.8415
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "ndcg@10": 0.8931,
+      "recall@100": 1.0,
+      "mrr": 0.8673
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 5,
+      "ndcg@10": 0.8738,
+      "recall@100": 1.0,
+      "mrr": 0.8435
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 10,
+      "ndcg@10": 0.8734,
+      "recall@100": 1.0,
+      "mrr": 0.8472
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 20,
+      "ndcg@10": 0.8756,
+      "recall@100": 1.0,
+      "mrr": 0.8516
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 40,
+      "ndcg@10": 0.875,
+      "recall@100": 1.0,
+      "mrr": 0.8507
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 60,
+      "ndcg@10": 0.875,
+      "recall@100": 1.0,
+      "mrr": 0.8506
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 80,
+      "ndcg@10": 0.8744,
+      "recall@100": 1.0,
+      "mrr": 0.8498
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "k": 100,
+      "ndcg@10": 0.8737,
+      "recall@100": 1.0,
+      "mrr": 0.8491
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "ndcg@10": 0.9076,
+      "recall@100": 1.0,
+      "mrr": 0.8857
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 5,
+      "ndcg@10": 0.895,
+      "recall@100": 1.0,
+      "mrr": 0.8695
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 10,
+      "ndcg@10": 0.8903,
+      "recall@100": 1.0,
+      "mrr": 0.8619
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 20,
+      "ndcg@10": 0.8874,
+      "recall@100": 1.0,
+      "mrr": 0.8598
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 40,
+      "ndcg@10": 0.8806,
+      "recall@100": 1.0,
+      "mrr": 0.8546
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 60,
+      "ndcg@10": 0.8808,
+      "recall@100": 1.0,
+      "mrr": 0.8583
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 80,
+      "ndcg@10": 0.8808,
+      "recall@100": 1.0,
+      "mrr": 0.8582
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "k": 100,
+      "ndcg@10": 0.8808,
+      "recall@100": 1.0,
+      "mrr": 0.8582
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "ndcg@10": 0.9122,
+      "recall@100": 1.0,
+      "mrr": 0.8918
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 5,
+      "ndcg@10": 0.9113,
+      "recall@100": 1.0,
+      "mrr": 0.892
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 10,
+      "ndcg@10": 0.9113,
+      "recall@100": 1.0,
+      "mrr": 0.8904
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 20,
+      "ndcg@10": 0.9078,
+      "recall@100": 1.0,
+      "mrr": 0.8873
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 40,
+      "ndcg@10": 0.9042,
+      "recall@100": 1.0,
+      "mrr": 0.8846
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 60,
+      "ndcg@10": 0.9072,
+      "recall@100": 1.0,
+      "mrr": 0.8888
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 80,
+      "ndcg@10": 0.9043,
+      "recall@100": 1.0,
+      "mrr": 0.8886
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "k": 100,
+      "ndcg@10": 0.9036,
+      "recall@100": 1.0,
+      "mrr": 0.8869
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "ndcg@10": 0.9292,
+      "recall@100": 1.0,
+      "mrr": 0.914
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.9246,
+      "recall@100": 1.0,
+      "mrr": 0.9057
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.9139,
+      "recall@100": 1.0,
+      "mrr": 0.8913
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.9129,
+      "recall@100": 1.0,
+      "mrr": 0.8901
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.9113,
+      "recall@100": 1.0,
+      "mrr": 0.8882
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.9075,
+      "recall@100": 1.0,
+      "mrr": 0.8851
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.9071,
+      "recall@100": 1.0,
+      "mrr": 0.8846
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.9071,
+      "recall@100": 1.0,
+      "mrr": 0.8846
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "ndcg@10": 0.9268,
+      "recall@100": 1.0,
+      "mrr": 0.9108
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.9278,
+      "recall@100": 1.0,
+      "mrr": 0.9094
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.9227,
+      "recall@100": 1.0,
+      "mrr": 0.9027
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.9224,
+      "recall@100": 1.0,
+      "mrr": 0.9024
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.918,
+      "recall@100": 1.0,
+      "mrr": 0.896
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.9179,
+      "recall@100": 1.0,
+      "mrr": 0.8961
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.9166,
+      "recall@100": 1.0,
+      "mrr": 0.8945
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.915,
+      "recall@100": 1.0,
+      "mrr": 0.8929
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "ndcg@10": 0.9315,
+      "recall@100": 1.0,
+      "mrr": 0.9189
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.9326,
+      "recall@100": 1.0,
+      "mrr": 0.9188
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.9334,
+      "recall@100": 1.0,
+      "mrr": 0.9188
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.928,
+      "recall@100": 1.0,
+      "mrr": 0.9118
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.9269,
+      "recall@100": 1.0,
+      "mrr": 0.9102
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9246,
+      "recall@100": 1.0,
+      "mrr": 0.9048
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.9199,
+      "recall@100": 1.0,
+      "mrr": 0.8984
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.9199,
+      "recall@100": 1.0,
+      "mrr": 0.8984
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "ndcg@10": 0.8912,
+      "recall@100": 1.0,
+      "mrr": 0.8732
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 5,
+      "ndcg@10": 0.8568,
+      "recall@100": 1.0,
+      "mrr": 0.8312
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 10,
+      "ndcg@10": 0.8623,
+      "recall@100": 1.0,
+      "mrr": 0.8365
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 20,
+      "ndcg@10": 0.8672,
+      "recall@100": 1.0,
+      "mrr": 0.8427
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 40,
+      "ndcg@10": 0.8687,
+      "recall@100": 1.0,
+      "mrr": 0.8448
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 60,
+      "ndcg@10": 0.8684,
+      "recall@100": 1.0,
+      "mrr": 0.8443
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 80,
+      "ndcg@10": 0.8682,
+      "recall@100": 1.0,
+      "mrr": 0.844
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "k": 100,
+      "ndcg@10": 0.8681,
+      "recall@100": 1.0,
+      "mrr": 0.8439
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "ndcg@10": 0.9045,
+      "recall@100": 1.0,
+      "mrr": 0.8853
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 5,
+      "ndcg@10": 0.8744,
+      "recall@100": 1.0,
+      "mrr": 0.8454
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 10,
+      "ndcg@10": 0.8735,
+      "recall@100": 1.0,
+      "mrr": 0.8496
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 20,
+      "ndcg@10": 0.8729,
+      "recall@100": 1.0,
+      "mrr": 0.8484
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 40,
+      "ndcg@10": 0.8724,
+      "recall@100": 1.0,
+      "mrr": 0.8477
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 60,
+      "ndcg@10": 0.8725,
+      "recall@100": 1.0,
+      "mrr": 0.8475
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 80,
+      "ndcg@10": 0.8737,
+      "recall@100": 1.0,
+      "mrr": 0.8491
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "k": 100,
+      "ndcg@10": 0.8736,
+      "recall@100": 1.0,
+      "mrr": 0.8489
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "ndcg@10": 0.9137,
+      "recall@100": 1.0,
+      "mrr": 0.8973
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 5,
+      "ndcg@10": 0.8906,
+      "recall@100": 1.0,
+      "mrr": 0.8638
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 10,
+      "ndcg@10": 0.8915,
+      "recall@100": 1.0,
+      "mrr": 0.8634
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 20,
+      "ndcg@10": 0.8915,
+      "recall@100": 1.0,
+      "mrr": 0.8634
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 40,
+      "ndcg@10": 0.8882,
+      "recall@100": 1.0,
+      "mrr": 0.861
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 60,
+      "ndcg@10": 0.8818,
+      "recall@100": 1.0,
+      "mrr": 0.856
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 80,
+      "ndcg@10": 0.8852,
+      "recall@100": 1.0,
+      "mrr": 0.8605
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "k": 100,
+      "ndcg@10": 0.8825,
+      "recall@100": 1.0,
+      "mrr": 0.8603
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "ndcg@10": 0.9223,
+      "recall@100": 1.0,
+      "mrr": 0.9037
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 5,
+      "ndcg@10": 0.9105,
+      "recall@100": 1.0,
+      "mrr": 0.8903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 10,
+      "ndcg@10": 0.9099,
+      "recall@100": 1.0,
+      "mrr": 0.8896
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 20,
+      "ndcg@10": 0.9076,
+      "recall@100": 1.0,
+      "mrr": 0.8873
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 40,
+      "ndcg@10": 0.9069,
+      "recall@100": 1.0,
+      "mrr": 0.8868
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 60,
+      "ndcg@10": 0.9062,
+      "recall@100": 1.0,
+      "mrr": 0.8862
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 80,
+      "ndcg@10": 0.9048,
+      "recall@100": 1.0,
+      "mrr": 0.886
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "k": 100,
+      "ndcg@10": 0.9048,
+      "recall@100": 1.0,
+      "mrr": 0.886
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "ndcg@10": 0.9255,
+      "recall@100": 1.0,
+      "mrr": 0.9069
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.9199,
+      "recall@100": 1.0,
+      "mrr": 0.903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.9113,
+      "recall@100": 1.0,
+      "mrr": 0.8912
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.9113,
+      "recall@100": 1.0,
+      "mrr": 0.8912
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.9091,
+      "recall@100": 1.0,
+      "mrr": 0.8888
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.908,
+      "recall@100": 1.0,
+      "mrr": 0.8875
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.9076,
+      "recall@100": 1.0,
+      "mrr": 0.887
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.9074,
+      "recall@100": 1.0,
+      "mrr": 0.8868
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "ndcg@10": 0.928,
+      "recall@100": 1.0,
+      "mrr": 0.91
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.9185,
+      "recall@100": 1.0,
+      "mrr": 0.8967
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.916,
+      "recall@100": 1.0,
+      "mrr": 0.8936
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.914,
+      "recall@100": 1.0,
+      "mrr": 0.8921
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.9137,
+      "recall@100": 1.0,
+      "mrr": 0.8916
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.9129,
+      "recall@100": 1.0,
+      "mrr": 0.8905
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.9093,
+      "recall@100": 1.0,
+      "mrr": 0.8856
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.9092,
+      "recall@100": 1.0,
+      "mrr": 0.8855
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "ndcg@10": 0.9331,
+      "recall@100": 1.0,
+      "mrr": 0.9167
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.9275,
+      "recall@100": 1.0,
+      "mrr": 0.9109
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.9213,
+      "recall@100": 1.0,
+      "mrr": 0.8999
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.9235,
+      "recall@100": 1.0,
+      "mrr": 0.9034
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.9235,
+      "recall@100": 1.0,
+      "mrr": 0.9034
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9233,
+      "recall@100": 1.0,
+      "mrr": 0.903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.9183,
+      "recall@100": 1.0,
+      "mrr": 0.8965
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.9181,
+      "recall@100": 1.0,
+      "mrr": 0.8963
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "ndcg@10": 0.907,
+      "recall@100": 1.0,
+      "mrr": 0.8899
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 5,
+      "ndcg@10": 0.8673,
+      "recall@100": 1.0,
+      "mrr": 0.839
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 10,
+      "ndcg@10": 0.8666,
+      "recall@100": 1.0,
+      "mrr": 0.8382
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 20,
+      "ndcg@10": 0.8677,
+      "recall@100": 1.0,
+      "mrr": 0.8395
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 40,
+      "ndcg@10": 0.8637,
+      "recall@100": 1.0,
+      "mrr": 0.8377
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 60,
+      "ndcg@10": 0.8635,
+      "recall@100": 1.0,
+      "mrr": 0.8373
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 80,
+      "ndcg@10": 0.8631,
+      "recall@100": 1.0,
+      "mrr": 0.8369
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "k": 100,
+      "ndcg@10": 0.8629,
+      "recall@100": 1.0,
+      "mrr": 0.8367
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "ndcg@10": 0.9166,
+      "recall@100": 1.0,
+      "mrr": 0.9019
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 5,
+      "ndcg@10": 0.8892,
+      "recall@100": 1.0,
+      "mrr": 0.8568
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 10,
+      "ndcg@10": 0.8854,
+      "recall@100": 1.0,
+      "mrr": 0.8516
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 20,
+      "ndcg@10": 0.8834,
+      "recall@100": 1.0,
+      "mrr": 0.8495
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 40,
+      "ndcg@10": 0.8798,
+      "recall@100": 1.0,
+      "mrr": 0.8482
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 60,
+      "ndcg@10": 0.8747,
+      "recall@100": 1.0,
+      "mrr": 0.8431
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 80,
+      "ndcg@10": 0.8755,
+      "recall@100": 1.0,
+      "mrr": 0.8477
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "k": 100,
+      "ndcg@10": 0.8755,
+      "recall@100": 1.0,
+      "mrr": 0.8477
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "ndcg@10": 0.9167,
+      "recall@100": 1.0,
+      "mrr": 0.9019
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 5,
+      "ndcg@10": 0.903,
+      "recall@100": 1.0,
+      "mrr": 0.8757
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 10,
+      "ndcg@10": 0.9012,
+      "recall@100": 1.0,
+      "mrr": 0.8749
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 20,
+      "ndcg@10": 0.9033,
+      "recall@100": 1.0,
+      "mrr": 0.8782
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 40,
+      "ndcg@10": 0.9052,
+      "recall@100": 1.0,
+      "mrr": 0.8812
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 60,
+      "ndcg@10": 0.9019,
+      "recall@100": 1.0,
+      "mrr": 0.8805
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 80,
+      "ndcg@10": 0.9016,
+      "recall@100": 1.0,
+      "mrr": 0.88
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "k": 100,
+      "ndcg@10": 0.9015,
+      "recall@100": 1.0,
+      "mrr": 0.88
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "ndcg@10": 0.9246,
+      "recall@100": 1.0,
+      "mrr": 0.9101
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.9159,
+      "recall@100": 1.0,
+      "mrr": 0.8919
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.9188,
+      "recall@100": 1.0,
+      "mrr": 0.8958
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.9129,
+      "recall@100": 1.0,
+      "mrr": 0.8903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.9105,
+      "recall@100": 1.0,
+      "mrr": 0.8875
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.9091,
+      "recall@100": 1.0,
+      "mrr": 0.8859
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.9089,
+      "recall@100": 1.0,
+      "mrr": 0.8855
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.906,
+      "recall@100": 1.0,
+      "mrr": 0.8853
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "ndcg@10": 0.9231,
+      "recall@100": 1.0,
+      "mrr": 0.9058
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.9198,
+      "recall@100": 1.0,
+      "mrr": 0.897
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.9273,
+      "recall@100": 1.0,
+      "mrr": 0.9072
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.9218,
+      "recall@100": 1.0,
+      "mrr": 0.8999
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.9167,
+      "recall@100": 1.0,
+      "mrr": 0.8948
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.9153,
+      "recall@100": 1.0,
+      "mrr": 0.8936
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.9152,
+      "recall@100": 1.0,
+      "mrr": 0.8934
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.9152,
+      "recall@100": 1.0,
+      "mrr": 0.8934
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "ndcg@10": 0.9242,
+      "recall@100": 1.0,
+      "mrr": 0.9067
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.9264,
+      "recall@100": 1.0,
+      "mrr": 0.9072
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.9243,
+      "recall@100": 1.0,
+      "mrr": 0.9025
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.9238,
+      "recall@100": 1.0,
+      "mrr": 0.902
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.9232,
+      "recall@100": 1.0,
+      "mrr": 0.9013
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9216,
+      "recall@100": 1.0,
+      "mrr": 0.8994
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.9165,
+      "recall@100": 1.0,
+      "mrr": 0.8941
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.9165,
+      "recall@100": 1.0,
+      "mrr": 0.8941
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "ndcg@10": 0.907,
+      "recall@100": 0.9906,
+      "mrr": 0.888
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 5,
+      "ndcg@10": 0.8889,
+      "recall@100": 1.0,
+      "mrr": 0.8599
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 10,
+      "ndcg@10": 0.8851,
+      "recall@100": 1.0,
+      "mrr": 0.8551
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 20,
+      "ndcg@10": 0.8794,
+      "recall@100": 1.0,
+      "mrr": 0.8534
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 40,
+      "ndcg@10": 0.8794,
+      "recall@100": 1.0,
+      "mrr": 0.849
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 60,
+      "ndcg@10": 0.883,
+      "recall@100": 1.0,
+      "mrr": 0.8538
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 80,
+      "ndcg@10": 0.8826,
+      "recall@100": 1.0,
+      "mrr": 0.8534
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "k": 100,
+      "ndcg@10": 0.8811,
+      "recall@100": 1.0,
+      "mrr": 0.8533
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "ndcg@10": 0.9089,
+      "recall@100": 0.9906,
+      "mrr": 0.889
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 5,
+      "ndcg@10": 0.9057,
+      "recall@100": 1.0,
+      "mrr": 0.8819
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 10,
+      "ndcg@10": 0.9042,
+      "recall@100": 1.0,
+      "mrr": 0.88
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 20,
+      "ndcg@10": 0.9009,
+      "recall@100": 1.0,
+      "mrr": 0.8792
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 40,
+      "ndcg@10": 0.8989,
+      "recall@100": 1.0,
+      "mrr": 0.8783
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 60,
+      "ndcg@10": 0.8984,
+      "recall@100": 1.0,
+      "mrr": 0.8777
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 80,
+      "ndcg@10": 0.8983,
+      "recall@100": 1.0,
+      "mrr": 0.8776
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "k": 100,
+      "ndcg@10": 0.8982,
+      "recall@100": 1.0,
+      "mrr": 0.8774
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "ndcg@10": 0.9089,
+      "recall@100": 0.9906,
+      "mrr": 0.8891
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.9143,
+      "recall@100": 1.0,
+      "mrr": 0.8923
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.9134,
+      "recall@100": 1.0,
+      "mrr": 0.8913
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.9106,
+      "recall@100": 1.0,
+      "mrr": 0.886
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.9045,
+      "recall@100": 1.0,
+      "mrr": 0.8834
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.9021,
+      "recall@100": 1.0,
+      "mrr": 0.8821
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.9035,
+      "recall@100": 1.0,
+      "mrr": 0.882
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.9029,
+      "recall@100": 1.0,
+      "mrr": 0.8814
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "ndcg@10": 0.9147,
+      "recall@100": 0.9906,
+      "mrr": 0.8966
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.9219,
+      "recall@100": 1.0,
+      "mrr": 0.8998
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.9197,
+      "recall@100": 1.0,
+      "mrr": 0.8973
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.9157,
+      "recall@100": 1.0,
+      "mrr": 0.8922
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.915,
+      "recall@100": 1.0,
+      "mrr": 0.8916
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.9109,
+      "recall@100": 1.0,
+      "mrr": 0.8913
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.9109,
+      "recall@100": 1.0,
+      "mrr": 0.8911
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.9104,
+      "recall@100": 1.0,
+      "mrr": 0.8905
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "ndcg@10": 0.9088,
+      "recall@100": 0.9906,
+      "mrr": 0.8884
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.923,
+      "recall@100": 1.0,
+      "mrr": 0.9006
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.9234,
+      "recall@100": 1.0,
+      "mrr": 0.9011
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.9217,
+      "recall@100": 1.0,
+      "mrr": 0.8994
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.9212,
+      "recall@100": 1.0,
+      "mrr": 0.8993
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9137,
+      "recall@100": 1.0,
+      "mrr": 0.8928
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.9137,
+      "recall@100": 1.0,
+      "mrr": 0.8926
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.9101,
+      "recall@100": 1.0,
+      "mrr": 0.8878
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "ndcg@10": 0.8956,
+      "recall@100": 0.9906,
+      "mrr": 0.8769
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 5,
+      "ndcg@10": 0.9032,
+      "recall@100": 1.0,
+      "mrr": 0.8888
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 10,
+      "ndcg@10": 0.9033,
+      "recall@100": 1.0,
+      "mrr": 0.8833
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 20,
+      "ndcg@10": 0.9022,
+      "recall@100": 1.0,
+      "mrr": 0.8837
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 40,
+      "ndcg@10": 0.8958,
+      "recall@100": 1.0,
+      "mrr": 0.8785
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 60,
+      "ndcg@10": 0.8941,
+      "recall@100": 1.0,
+      "mrr": 0.878
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 80,
+      "ndcg@10": 0.8941,
+      "recall@100": 1.0,
+      "mrr": 0.8779
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "k": 100,
+      "ndcg@10": 0.894,
+      "recall@100": 1.0,
+      "mrr": 0.8778
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "ndcg@10": 0.8962,
+      "recall@100": 0.9906,
+      "mrr": 0.8773
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.9143,
+      "recall@100": 1.0,
+      "mrr": 0.8953
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.9105,
+      "recall@100": 1.0,
+      "mrr": 0.8935
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.9106,
+      "recall@100": 1.0,
+      "mrr": 0.8935
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.9055,
+      "recall@100": 1.0,
+      "mrr": 0.8909
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.9051,
+      "recall@100": 1.0,
+      "mrr": 0.8902
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.9031,
+      "recall@100": 1.0,
+      "mrr": 0.8852
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.9047,
+      "recall@100": 1.0,
+      "mrr": 0.8899
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "ndcg@10": 0.9012,
+      "recall@100": 0.9906,
+      "mrr": 0.883
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.9226,
+      "recall@100": 1.0,
+      "mrr": 0.9058
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.912,
+      "recall@100": 1.0,
+      "mrr": 0.8954
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.9147,
+      "recall@100": 1.0,
+      "mrr": 0.8991
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.9123,
+      "recall@100": 1.0,
+      "mrr": 0.8992
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.9126,
+      "recall@100": 1.0,
+      "mrr": 0.8995
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.9121,
+      "recall@100": 1.0,
+      "mrr": 0.8989
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.9121,
+      "recall@100": 1.0,
+      "mrr": 0.8989
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "ndcg@10": 0.9005,
+      "recall@100": 0.9906,
+      "mrr": 0.8819
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.9301,
+      "recall@100": 1.0,
+      "mrr": 0.9132
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.9227,
+      "recall@100": 1.0,
+      "mrr": 0.9015
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.9221,
+      "recall@100": 1.0,
+      "mrr": 0.9064
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.9168,
+      "recall@100": 1.0,
+      "mrr": 0.9047
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9165,
+      "recall@100": 1.0,
+      "mrr": 0.9043
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.9079,
+      "recall@100": 1.0,
+      "mrr": 0.89
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.913,
+      "recall@100": 1.0,
+      "mrr": 0.8994
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "ndcg@10": 0.8905,
+      "recall@100": 0.9906,
+      "mrr": 0.8701
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 5,
+      "ndcg@10": 0.8932,
+      "recall@100": 1.0,
+      "mrr": 0.8706
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 10,
+      "ndcg@10": 0.9046,
+      "recall@100": 1.0,
+      "mrr": 0.8884
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 20,
+      "ndcg@10": 0.9048,
+      "recall@100": 1.0,
+      "mrr": 0.8882
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 40,
+      "ndcg@10": 0.9038,
+      "recall@100": 1.0,
+      "mrr": 0.8868
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 60,
+      "ndcg@10": 0.9038,
+      "recall@100": 1.0,
+      "mrr": 0.8869
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 80,
+      "ndcg@10": 0.9038,
+      "recall@100": 1.0,
+      "mrr": 0.8869
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "k": 100,
+      "ndcg@10": 0.9038,
+      "recall@100": 1.0,
+      "mrr": 0.8868
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "ndcg@10": 0.8914,
+      "recall@100": 0.9906,
+      "mrr": 0.8703
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.9025,
+      "recall@100": 1.0,
+      "mrr": 0.8825
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.9064,
+      "recall@100": 1.0,
+      "mrr": 0.8912
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.9062,
+      "recall@100": 1.0,
+      "mrr": 0.8904
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.9062,
+      "recall@100": 1.0,
+      "mrr": 0.8903
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.9062,
+      "recall@100": 1.0,
+      "mrr": 0.8901
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.9061,
+      "recall@100": 1.0,
+      "mrr": 0.89
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.9061,
+      "recall@100": 1.0,
+      "mrr": 0.89
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "ndcg@10": 0.894,
+      "recall@100": 0.9906,
+      "mrr": 0.8728
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.905,
+      "recall@100": 1.0,
+      "mrr": 0.8852
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.9082,
+      "recall@100": 1.0,
+      "mrr": 0.893
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.9077,
+      "recall@100": 1.0,
+      "mrr": 0.8917
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.9032,
+      "recall@100": 1.0,
+      "mrr": 0.8856
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9032,
+      "recall@100": 1.0,
+      "mrr": 0.8854
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.8997,
+      "recall@100": 1.0,
+      "mrr": 0.8807
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.8997,
+      "recall@100": 1.0,
+      "mrr": 0.8806
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "ndcg@10": 0.8803,
+      "recall@100": 0.9906,
+      "mrr": 0.8606
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 5,
+      "ndcg@10": 0.8808,
+      "recall@100": 1.0,
+      "mrr": 0.8572
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 10,
+      "ndcg@10": 0.8836,
+      "recall@100": 1.0,
+      "mrr": 0.8609
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 20,
+      "ndcg@10": 0.8916,
+      "recall@100": 1.0,
+      "mrr": 0.871
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 40,
+      "ndcg@10": 0.8975,
+      "recall@100": 0.9906,
+      "mrr": 0.8782
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 60,
+      "ndcg@10": 0.8989,
+      "recall@100": 0.9906,
+      "mrr": 0.8797
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 80,
+      "ndcg@10": 0.8987,
+      "recall@100": 0.9906,
+      "mrr": 0.8797
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "k": 100,
+      "ndcg@10": 0.898,
+      "recall@100": 0.9906,
+      "mrr": 0.8789
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "ndcg@10": 0.8861,
+      "recall@100": 0.9906,
+      "mrr": 0.8659
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.8873,
+      "recall@100": 1.0,
+      "mrr": 0.8648
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.8851,
+      "recall@100": 1.0,
+      "mrr": 0.8613
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.895,
+      "recall@100": 1.0,
+      "mrr": 0.8745
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.8999,
+      "recall@100": 0.9906,
+      "mrr": 0.8802
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.9,
+      "recall@100": 0.9906,
+      "mrr": 0.8803
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.8966,
+      "recall@100": 0.9906,
+      "mrr": 0.8756
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.8963,
+      "recall@100": 0.9906,
+      "mrr": 0.8753
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "ndcg@10": 0.8734,
+      "recall@100": 0.9906,
+      "mrr": 0.851
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 5,
+      "ndcg@10": 0.8781,
+      "recall@100": 1.0,
+      "mrr": 0.8561
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 10,
+      "ndcg@10": 0.8783,
+      "recall@100": 0.9906,
+      "mrr": 0.8563
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 20,
+      "ndcg@10": 0.8809,
+      "recall@100": 0.9906,
+      "mrr": 0.8597
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 40,
+      "ndcg@10": 0.8852,
+      "recall@100": 0.9906,
+      "mrr": 0.8654
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 60,
+      "ndcg@10": 0.8851,
+      "recall@100": 0.9906,
+      "mrr": 0.8654
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 80,
+      "ndcg@10": 0.8844,
+      "recall@100": 0.9906,
+      "mrr": 0.8608
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "k": 100,
+      "ndcg@10": 0.8848,
+      "recall@100": 0.9906,
+      "mrr": 0.8609
+    },
+    {
+      "method": "interpolation",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "ndcg@10": 0.9152,
+      "recall@100": 1.0,
+      "mrr": 0.8974
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 5,
+      "ndcg@10": 0.9142,
+      "recall@100": 1.0,
+      "mrr": 0.8895
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 10,
+      "ndcg@10": 0.9119,
+      "recall@100": 1.0,
+      "mrr": 0.8872
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 20,
+      "ndcg@10": 0.9101,
+      "recall@100": 1.0,
+      "mrr": 0.8869
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 40,
+      "ndcg@10": 0.907,
+      "recall@100": 1.0,
+      "mrr": 0.8832
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 60,
+      "ndcg@10": 0.9041,
+      "recall@100": 1.0,
+      "mrr": 0.8829
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 80,
+      "ndcg@10": 0.9037,
+      "recall@100": 1.0,
+      "mrr": 0.8823
+    },
+    {
+      "method": "rrf",
+      "systems": [
+        "bm25",
+        "general",
+        "scientific"
+      ],
+      "weights": [
+        0.3333,
+        0.3333,
+        0.3333
+      ],
+      "k": 100,
+      "ndcg@10": 0.9037,
+      "recall@100": 1.0,
+      "mrr": 0.8823
+    }
+  ],
+  "rerank_grid": [
+    {
+      "model": "ms-marco-MiniLM-L-6-v2",
+      "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "parameters_m": 22.7,
+      "k": 20,
+      "query_latency_ms": 71.03,
+      "ndcg@10": 0.8773,
+      "recall@100": 1.0,
+      "mrr": 0.8577
+    },
+    {
+      "model": "ms-marco-MiniLM-L-6-v2",
+      "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "parameters_m": 22.7,
+      "k": 50,
+      "query_latency_ms": 148.81,
+      "ndcg@10": 0.8648,
+      "recall@100": 1.0,
+      "mrr": 0.8552
+    },
+    {
+      "model": "ms-marco-MiniLM-L-6-v2",
+      "model_id": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "parameters_m": 22.7,
+      "k": 100,
+      "query_latency_ms": 329.69,
+      "ndcg@10": 0.8648,
+      "recall@100": 1.0,
+      "mrr": 0.8544
+    },
+    {
+      "model": "bge-reranker-base",
+      "model_id": "BAAI/bge-reranker-base",
+      "parameters_m": 278.0,
+      "k": 20,
+      "query_latency_ms": 147.13,
+      "ndcg@10": 0.8673,
+      "recall@100": 1.0,
+      "mrr": 0.8291
+    },
+    {
+      "model": "bge-reranker-base",
+      "model_id": "BAAI/bge-reranker-base",
+      "parameters_m": 278.0,
+      "k": 50,
+      "query_latency_ms": 366.52,
+      "ndcg@10": 0.8529,
+      "recall@100": 1.0,
+      "mrr": 0.8252
+    },
+    {
+      "model": "bge-reranker-base",
+      "model_id": "BAAI/bge-reranker-base",
+      "parameters_m": 278.0,
+      "k": 100,
+      "query_latency_ms": 711.0,
+      "ndcg@10": 0.8481,
+      "recall@100": 1.0,
+      "mrr": 0.8221
+    },
+    {
+      "model": "MedCPT-Cross-Encoder",
+      "model_id": "ncbi/MedCPT-Cross-Encoder",
+      "parameters_m": 109.5,
+      "k": 20,
+      "query_latency_ms": 139.57,
+      "ndcg@10": 0.9133,
+      "recall@100": 1.0,
+      "mrr": 0.8874
+    },
+    {
+      "model": "MedCPT-Cross-Encoder",
+      "model_id": "ncbi/MedCPT-Cross-Encoder",
+      "parameters_m": 109.5,
+      "k": 50,
+      "query_latency_ms": 363.56,
+      "ndcg@10": 0.9125,
+      "recall@100": 1.0,
+      "mrr": 0.8863
+    },
+    {
+      "model": "MedCPT-Cross-Encoder",
+      "model_id": "ncbi/MedCPT-Cross-Encoder",
+      "parameters_m": 109.5,
+      "k": 100,
+      "query_latency_ms": 712.55,
+      "ndcg@10": 0.9125,
+      "recall@100": 1.0,
+      "mrr": 0.8863
+    }
+  ]
+}

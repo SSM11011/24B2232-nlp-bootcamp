@@ -1,0 +1,1092 @@
+{
+  "nli_results": {
+    "cross-encoder/nli-deberta-v3-base": {
+      "mode": "zero-shot",
+      "model_id": "cross-encoder/nli-deberta-v3-base",
+      "rule": {
+        "support_threshold": 0.01,
+        "contradict_threshold": 0.99,
+        "max_rank": 1,
+        "one_label_per_claim": true
+      },
+      "val": {
+        "precision": 0.5315,
+        "recall": 0.4758,
+        "f1": 0.5021
+      },
+      "parameters_m": 184.4
+    },
+    "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli": {
+      "mode": "zero-shot",
+      "model_id": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "rule": {
+        "support_threshold": 0.05,
+        "contradict_threshold": 0.75,
+        "max_rank": 1,
+        "one_label_per_claim": true
+      },
+      "val": {
+        "precision": 0.5246,
+        "recall": 0.5161,
+        "f1": 0.5203
+      },
+      "parameters_m": 184.4
+    },
+    "pritamdeka/PubMedBERT-MNLI-MedNLI": {
+      "mode": "zero-shot",
+      "model_id": "pritamdeka/PubMedBERT-MNLI-MedNLI",
+      "rule": {
+        "support_threshold": 0.99,
+        "contradict_threshold": 0.99,
+        "max_rank": 1,
+        "one_label_per_claim": true
+      },
+      "val": {
+        "precision": 0.5071,
+        "recall": 0.5726,
+        "f1": 0.5379
+      },
+      "parameters_m": 109.5
+    },
+    "fine-tuned": {
+      "mode": "fine-tuned",
+      "model_id": "pritamdeka/PubMedBERT-MNLI-MedNLI",
+      "rule": {
+        "support_threshold": 0.85,
+        "contradict_threshold": 0.8,
+        "max_rank": 2,
+        "one_label_per_claim": false
+      },
+      "val": {
+        "precision": 0.6583,
+        "recall": 0.6371,
+        "f1": 0.6475
+      },
+      "best_epoch": 2,
+      "history": [
+        {
+          "epoch": 0,
+          "train_loss": null,
+          "precision": 0.5071,
+          "recall": 0.5726,
+          "f1": 0.5379,
+          "rule": {
+            "support_threshold": 0.99,
+            "contradict_threshold": 0.99,
+            "max_rank": 1,
+            "one_label_per_claim": true
+          }
+        },
+        {
+          "epoch": 1,
+          "train_loss": 0.8958,
+          "precision": 0.6486,
+          "recall": 0.5806,
+          "f1": 0.6128,
+          "rule": {
+            "support_threshold": 0.55,
+            "contradict_threshold": 0.75,
+            "max_rank": 1,
+            "one_label_per_claim": true
+          }
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.3341,
+          "precision": 0.6583,
+          "recall": 0.6371,
+          "f1": 0.6475,
+          "rule": {
+            "support_threshold": 0.85,
+            "contradict_threshold": 0.8,
+            "max_rank": 2,
+            "one_label_per_claim": false
+          }
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.2358,
+          "precision": 0.6916,
+          "recall": 0.5968,
+          "f1": 0.6407,
+          "rule": {
+            "support_threshold": 0.95,
+            "contradict_threshold": 0.95,
+            "max_rank": 2,
+            "one_label_per_claim": true
+          }
+        }
+      ],
+      "parameters_m": 109.5
+    }
+  },
+  "errors": [
+    {
+      "claim_id": 24,
+      "claim": "90% of patients with melanoma and an objective response to PD-1 blockade will experience a progression in their melanoma.",
+      "category": "numerical",
+      "gold": {},
+      "predicted": {
+        "3471191": "CONTRADICT"
+      },
+      "top_docs": [
+        3471191,
+        1900152,
+        52180874
+      ]
+    },
+    {
+      "claim_id": 34,
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "category": "other",
+      "gold": {
+        "11705328": "SUPPORT"
+      },
+      "predicted": {
+        "11705328": "CONTRADICT",
+        "37424881": "CONTRADICT"
+      },
+      "top_docs": [
+        11705328,
+        37424881,
+        18557974
+      ]
+    },
+    {
+      "claim_id": 88,
+      "claim": "Adult tissue-resident macrophages possess a self-renewing capacity.",
+      "category": "other",
+      "gold": {
+        "7521113": "SUPPORT"
+      },
+      "predicted": {
+        "12827098": "SUPPORT",
+        "7521113": "SUPPORT"
+      },
+      "top_docs": [
+        12827098,
+        7521113,
+        22406695
+      ]
+    },
+    {
+      "claim_id": 112,
+      "claim": "Angiotensin converting enzyme inhibitors are associated with decreased risk for functional renal insufficiency.",
+      "category": "other",
+      "gold": {
+        "6157837": "CONTRADICT"
+      },
+      "predicted": {
+        "6157837": "CONTRADICT",
+        "25816994": "SUPPORT"
+      },
+      "top_docs": [
+        6157837,
+        25816994,
+        44030361
+      ]
+    },
+    {
+      "claim_id": 119,
+      "claim": "Antidepressants increase the severity of migraines.",
+      "category": "other",
+      "gold": {
+        "14606752": "CONTRADICT"
+      },
+      "predicted": {
+        "14606752": "CONTRADICT",
+        "6191684": "CONTRADICT"
+      },
+      "top_docs": [
+        14606752,
+        6191684,
+        22995579
+      ]
+    },
+    {
+      "claim_id": 155,
+      "claim": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+      "category": "other",
+      "gold": {
+        "37549932": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        34436231,
+        37549932,
+        11900630
+      ]
+    },
+    {
+      "claim_id": 167,
+      "claim": "Bariatric surgery leads to positive outcomes in mental health.",
+      "category": "other",
+      "gold": {
+        "18872233": "SUPPORT"
+      },
+      "predicted": {
+        "18872233": "SUPPORT",
+        "43220289": "SUPPORT"
+      },
+      "top_docs": [
+        18872233,
+        43220289,
+        19071857
+      ]
+    },
+    {
+      "claim_id": 189,
+      "claim": "Broadly HIV-1 Neutralizing Antibodies (bnAb) 10EB have no affinity for phospholipids.",
+      "category": "other",
+      "gold": {
+        "4421578": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        4421578,
+        4373433,
+        5560962
+      ]
+    },
+    {
+      "claim_id": 235,
+      "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "category": "other",
+      "gold": {
+        "4388470": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        4388470,
+        28390999,
+        16963081
+      ]
+    },
+    {
+      "claim_id": 355,
+      "claim": "Drosophila supracellular actomyosin structures are found at boundaries in wing imaginal discs.",
+      "category": "other",
+      "gold": {
+        "12800122": "SUPPORT",
+        "38380061": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        38380061,
+        13936152,
+        12800122
+      ]
+    },
+    {
+      "claim_id": 381,
+      "claim": "Environmental factors can influence the development of breast cancer.",
+      "category": "other",
+      "gold": {
+        "18340282": "SUPPORT"
+      },
+      "predicted": {
+        "18340282": "SUPPORT",
+        "17450673": "SUPPORT"
+      },
+      "top_docs": [
+        18340282,
+        17450673,
+        23557241
+      ]
+    },
+    {
+      "claim_id": 382,
+      "claim": "Environmentally-induced senescence is mimicked in disease modeling by adding specific molecules to the culture system.",
+      "category": "retrieval_miss",
+      "gold": {
+        "11659421": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        15521377,
+        9559146,
+        35543846
+      ]
+    },
+    {
+      "claim_id": 383,
+      "claim": "Epidemiological disease burden from noncommunicable diseases is more prevalent in high economic settings.",
+      "category": "numerical",
+      "gold": {},
+      "predicted": {
+        "25451374": "CONTRADICT"
+      },
+      "top_docs": [
+        25451374,
+        8582337,
+        13770184
+      ]
+    },
+    {
+      "claim_id": 400,
+      "claim": "Exposure to fine particulate air pollution is unrelated to anxiety prevalence.",
+      "category": "other",
+      "gold": {
+        "791050": "CONTRADICT"
+      },
+      "predicted": {
+        "791050": "SUPPORT"
+      },
+      "top_docs": [
+        791050,
+        32357890,
+        21003930
+      ]
+    },
+    {
+      "claim_id": 413,
+      "claim": "Female carriers of the Apolipoprotein E4 (APOE4) allele have decreased risk for dementia.",
+      "category": "entity_mismatch",
+      "gold": {
+        "6309659": "CONTRADICT"
+      },
+      "predicted": {
+        "6309659": "CONTRADICT",
+        "51386222": "CONTRADICT"
+      },
+      "top_docs": [
+        6309659,
+        51386222,
+        12443371
+      ]
+    },
+    {
+      "claim_id": 418,
+      "claim": "Fibroblast Growth Factor is a ligand which signals through receptor tyrosine kinases.",
+      "category": "other",
+      "gold": {},
+      "predicted": {
+        "23420807": "SUPPORT"
+      },
+      "top_docs": [
+        23420807,
+        16494316,
+        23397658
+      ]
+    },
+    {
+      "claim_id": 425,
+      "claim": "For every 1,000 children with cerebral palsy, more than 300 of them are premature or underweight at birth.",
+      "category": "numerical",
+      "gold": {},
+      "predicted": {
+        "33257464": "SUPPORT"
+      },
+      "top_docs": [
+        33257464,
+        13791044,
+        1606628
+      ]
+    },
+    {
+      "claim_id": 430,
+      "claim": "FoxO3a activation in neuronal death is inhibited by reactive oxygen species (ROS).",
+      "category": "other",
+      "gold": {
+        "28937856": "CONTRADICT"
+      },
+      "predicted": {},
+      "top_docs": [
+        28937856,
+        14496749,
+        29429111
+      ]
+    },
+    {
+      "claim_id": 447,
+      "claim": "Gastric infection with Helicobacter pylori decreases risk of gastric cancer in humans.",
+      "category": "other",
+      "gold": {
+        "2052720": "CONTRADICT"
+      },
+      "predicted": {
+        "2052720": "CONTRADICT",
+        "39550665": "SUPPORT"
+      },
+      "top_docs": [
+        2052720,
+        39550665,
+        14729253
+      ]
+    },
+    {
+      "claim_id": 463,
+      "claim": "Genomic aberrations of metastases provide information for targeted therapy.",
+      "category": "other",
+      "gold": {
+        "19736671": "SUPPORT"
+      },
+      "predicted": {
+        "31634628": "SUPPORT"
+      },
+      "top_docs": [
+        19736671,
+        31634628,
+        5649538
+      ]
+    },
+    {
+      "claim_id": 479,
+      "claim": "Gpr124 increases BBB breakdown in mouse models of ischemic stroke.",
+      "category": "negation",
+      "gold": {
+        "6325527": "CONTRADICT"
+      },
+      "predicted": {
+        "6325527": "SUPPORT"
+      },
+      "top_docs": [
+        6325527,
+        15488881,
+        19571273
+      ]
+    },
+    {
+      "claim_id": 483,
+      "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+      "category": "other",
+      "gold": {
+        "22703082": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        24705390,
+        2052720,
+        22703082
+      ]
+    },
+    {
+      "claim_id": 523,
+      "claim": "Higher plasma levels of I-carnitine, when associated with trimethylamine N-oxide, are negatively correlated with cardiovascular events in humans.",
+      "category": "numerical",
+      "gold": {
+        "14803797": "CONTRADICT"
+      },
+      "predicted": {
+        "14803797": "CONTRADICT",
+        "6793674": "CONTRADICT"
+      },
+      "top_docs": [
+        14803797,
+        6793674,
+        33684572
+      ]
+    },
+    {
+      "claim_id": 531,
+      "claim": "Human embryonic stem cells have the capacity to give rise to differentiated progeny representative of all three embryonic germ layers.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "10546779": "SUPPORT",
+        "25413327": "SUPPORT",
+        "36651210": "SUPPORT"
+      },
+      "predicted": {
+        "36651210": "SUPPORT",
+        "25413327": "SUPPORT"
+      },
+      "top_docs": [
+        36651210,
+        25413327,
+        3360421
+      ]
+    },
+    {
+      "claim_id": 537,
+      "claim": "Hypocretin neurones suppress panicprone state in rats.",
+      "category": "other",
+      "gold": {
+        "16056514": "CONTRADICT"
+      },
+      "predicted": {},
+      "top_docs": [
+        16056514,
+        86211914,
+        45154987
+      ]
+    },
+    {
+      "claim_id": 541,
+      "claim": "Hypothalamic glutamate neurotransmission is unrelated to energy balance.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "11886686": "CONTRADICT",
+        "45154987": "CONTRADICT"
+      },
+      "predicted": {
+        "45154987": "CONTRADICT",
+        "46451940": "CONTRADICT"
+      },
+      "top_docs": [
+        45154987,
+        46451940,
+        11886686
+      ]
+    },
+    {
+      "claim_id": 559,
+      "claim": "Immune responses in immune cells are geographically segregated.",
+      "category": "retrieval_miss",
+      "gold": {
+        "3475317": "SUPPORT"
+      },
+      "predicted": {
+        "4928282": "SUPPORT"
+      },
+      "top_docs": [
+        4928282,
+        9977329,
+        3155731
+      ]
+    },
+    {
+      "claim_id": 562,
+      "claim": "Improvements in OER catalysts show stable activity over several hundred hours.",
+      "category": "other",
+      "gold": {
+        "20101846": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        20101846,
+        27768226,
+        4857085
+      ]
+    },
+    {
+      "claim_id": 566,
+      "claim": "In S. cerevisiae, the absence of RNA surveillance pathways reduces sensitivity to high iron conditions.",
+      "category": "other",
+      "gold": {
+        "16120395": "CONTRADICT"
+      },
+      "predicted": {
+        "16120395": "SUPPORT"
+      },
+      "top_docs": [
+        16120395,
+        26596106,
+        418246
+      ]
+    },
+    {
+      "claim_id": 669,
+      "claim": "Klf4 is not required for proper myeloid cell differentiation.",
+      "category": "entity_mismatch",
+      "gold": {
+        "25148216": "CONTRADICT"
+      },
+      "predicted": {
+        "25148216": "CONTRADICT",
+        "6493422": "CONTRADICT"
+      },
+      "top_docs": [
+        25148216,
+        6493422,
+        2452989
+      ]
+    },
+    {
+      "claim_id": 670,
+      "claim": "Knockout proximal tubule-specific deletion of the BMP receptor Alk3 causes epithelial damage.",
+      "category": "other",
+      "gold": {
+        "5573975": "SUPPORT"
+      },
+      "predicted": {
+        "25928548": "SUPPORT",
+        "5573975": "SUPPORT"
+      },
+      "top_docs": [
+        25928548,
+        5573975,
+        21804115
+      ]
+    },
+    {
+      "claim_id": 673,
+      "claim": "LDL cholesterol has a causal role in the development of cardiovascular disease.",
+      "category": "other",
+      "gold": {
+        "2095573": "SUPPORT"
+      },
+      "predicted": {
+        "7662206": "SUPPORT",
+        "2095573": "SUPPORT"
+      },
+      "top_docs": [
+        7662206,
+        2095573,
+        30981192
+      ]
+    },
+    {
+      "claim_id": 682,
+      "claim": "Lack of FGF21 in mice leads to reduced lifespan.",
+      "category": "other",
+      "gold": {
+        "9315213": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        9315213,
+        23397658,
+        6227220
+      ]
+    },
+    {
+      "claim_id": 734,
+      "claim": "MEK inhibitors are effective treatments in RAS-driven mouse models of cancer.",
+      "category": "other",
+      "gold": {
+        "4961038": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        4961038,
+        4920376,
+        85665741
+      ]
+    },
+    {
+      "claim_id": 738,
+      "claim": "MICAL redox enzymes regulate actin dynamics.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "6609935": "SUPPORT",
+        "16562534": "SUPPORT",
+        "33912020": "SUPPORT"
+      },
+      "predicted": {
+        "4417558": "SUPPORT",
+        "6609935": "SUPPORT"
+      },
+      "top_docs": [
+        4417558,
+        6609935,
+        16562534
+      ]
+    },
+    {
+      "claim_id": 747,
+      "claim": "MafA ubiquitination decreases the recruitment of coavtivator P/CAF by MafA.",
+      "category": "other",
+      "gold": {
+        "11291348": "CONTRADICT"
+      },
+      "predicted": {
+        "11291348": "SUPPORT"
+      },
+      "top_docs": [
+        11291348,
+        7820043,
+        6446747
+      ]
+    },
+    {
+      "claim_id": 761,
+      "claim": "MeCP2 influences the synaptic maturation of neurons.",
+      "category": "other",
+      "gold": {},
+      "predicted": {
+        "41644178": "SUPPORT",
+        "1964163": "SUPPORT"
+      },
+      "top_docs": [
+        41644178,
+        1964163,
+        980008
+      ]
+    },
+    {
+      "claim_id": 766,
+      "claim": "Medications to treat obesity have unwanted side effects.",
+      "category": "other",
+      "gold": {
+        "7552215": "SUPPORT"
+      },
+      "predicted": {
+        "7552215": "SUPPORT",
+        "5839365": "SUPPORT"
+      },
+      "top_docs": [
+        7552215,
+        5839365,
+        4345757
+      ]
+    },
+    {
+      "claim_id": 779,
+      "claim": "Mice lacking Sirt1 in Sf1-expressing neurons have increased susceptibility to diet-induced obesity and insulin resistance.",
+      "category": "other",
+      "gold": {
+        "13001323": "SUPPORT"
+      },
+      "predicted": {
+        "13001323": "CONTRADICT"
+      },
+      "top_docs": [
+        13001323,
+        2481032,
+        6171953
+      ]
+    },
+    {
+      "claim_id": 792,
+      "claim": "Misunderstandings between doctors and patients can lead to non-adherence.",
+      "category": "other",
+      "gold": {
+        "3610080": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        3610080,
+        17779800,
+        15983982
+      ]
+    },
+    {
+      "claim_id": 886,
+      "claim": "One in two surgical randomized controlled trials are discontinued early.",
+      "category": "other",
+      "gold": {
+        "6477536": "CONTRADICT"
+      },
+      "predicted": {},
+      "top_docs": [
+        6477536,
+        9754530,
+        9754833
+      ]
+    },
+    {
+      "claim_id": 953,
+      "claim": "Pioglitazone use is significantly associated with an increased risk of pancreatic cancer.",
+      "category": "negation",
+      "gold": {
+        "3355397": "SUPPORT"
+      },
+      "predicted": {
+        "3355397": "CONTRADICT"
+      },
+      "top_docs": [
+        3355397,
+        31229233,
+        10430148
+      ]
+    },
+    {
+      "claim_id": 962,
+      "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "935538": "SUPPORT",
+        "4306711": "SUPPORT",
+        "13931771": "SUPPORT"
+      },
+      "predicted": {
+        "20018321": "SUPPORT",
+        "935538": "SUPPORT"
+      },
+      "top_docs": [
+        20018321,
+        935538,
+        13931771
+      ]
+    },
+    {
+      "claim_id": 964,
+      "claim": "Pre-mRNAs associated with spliceosomal components are more stable than unassociated splicing substrates.",
+      "category": "numerical",
+      "gold": {
+        "4162857": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        4162857,
+        13384318,
+        4067274
+      ]
+    },
+    {
+      "claim_id": 1003,
+      "claim": "RAD52 is involved in break-induced DNA replication (BIR).",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "4319844": "SUPPORT",
+        "4899981": "SUPPORT",
+        "14332945": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        14332945,
+        8577229,
+        7151961
+      ]
+    },
+    {
+      "claim_id": 1004,
+      "claim": "RANK-RANKL pathway signalling has no known association with development of Aire-expressing medullary thymic epithelial cells.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "301838": "CONTRADICT",
+        "2734421": "CONTRADICT",
+        "3952288": "CONTRADICT"
+      },
+      "predicted": {
+        "3952288": "CONTRADICT"
+      },
+      "top_docs": [
+        39128592,
+        3952288,
+        301838
+      ]
+    },
+    {
+      "claim_id": 1005,
+      "claim": "RANK-RANKL pathway signalling is linked to development of Aire-expressing medullary thymic epithelial cells.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "301838": "SUPPORT",
+        "2734421": "SUPPORT",
+        "3952288": "SUPPORT"
+      },
+      "predicted": {
+        "39128592": "SUPPORT",
+        "3952288": "SUPPORT"
+      },
+      "top_docs": [
+        39128592,
+        3952288,
+        301838
+      ]
+    },
+    {
+      "claim_id": 1009,
+      "claim": "RUNX1 is downregulated or mutated in TLX1 T-ALL.",
+      "category": "other",
+      "gold": {
+        "1982286": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        1982286,
+        13048272,
+        22049489
+      ]
+    },
+    {
+      "claim_id": 1018,
+      "claim": "Rapid phosphotransfer rates are correlated with histidine kinase regulator specificity.",
+      "category": "other",
+      "gold": {
+        "11603066": "SUPPORT"
+      },
+      "predicted": {
+        "11603066": "SUPPORT",
+        "1225513": "SUPPORT"
+      },
+      "top_docs": [
+        11603066,
+        1225513,
+        3468459
+      ]
+    },
+    {
+      "claim_id": 1028,
+      "claim": "Reduced responsiveness to interleukin-2 in regulatory T cells is associated with autoimmune diseases such as Type 1 Diabetes.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "11899391": "SUPPORT",
+        "13923140": "SUPPORT"
+      },
+      "predicted": {
+        "11899391": "SUPPORT"
+      },
+      "top_docs": [
+        11899391,
+        13923140,
+        13940200
+      ]
+    },
+    {
+      "claim_id": 1084,
+      "claim": "Side effects associated with antidepressants increases risk of stroke.",
+      "category": "other",
+      "gold": {
+        "5691302": "SUPPORT"
+      },
+      "predicted": {
+        "5691302": "SUPPORT",
+        "14606752": "SUPPORT"
+      },
+      "top_docs": [
+        5691302,
+        14606752,
+        5260382
+      ]
+    },
+    {
+      "claim_id": 1115,
+      "claim": "Surgical treatment is not superior to non-surgical in treating adults with displaced fractures of the proximal humerus.",
+      "category": "other",
+      "gold": {
+        "44048701": "SUPPORT"
+      },
+      "predicted": {
+        "44048701": "SUPPORT",
+        "19182166": "CONTRADICT"
+      },
+      "top_docs": [
+        44048701,
+        19182166,
+        38493521
+      ]
+    },
+    {
+      "claim_id": 1148,
+      "claim": "Ten percent (10%) of kidney cancers in the UK are attributable to excess weight.",
+      "category": "numerical",
+      "gold": {
+        "4828631": "SUPPORT"
+      },
+      "predicted": {},
+      "top_docs": [
+        4828631,
+        25837950,
+        195689316
+      ]
+    },
+    {
+      "claim_id": 1156,
+      "claim": "The DESMOND program caused substantial weight loss in most participants.",
+      "category": "numerical",
+      "gold": {
+        "12584053": "CONTRADICT"
+      },
+      "predicted": {
+        "12584053": "SUPPORT",
+        "12672066": "SUPPORT"
+      },
+      "top_docs": [
+        12584053,
+        12672066,
+        36033696
+      ]
+    },
+    {
+      "claim_id": 1223,
+      "claim": "The innate immune response struggles to remove small numbers of parasites.",
+      "category": "other",
+      "gold": {
+        "5289038": "CONTRADICT"
+      },
+      "predicted": {
+        "5289038": "SUPPORT"
+      },
+      "top_docs": [
+        5289038,
+        21439293,
+        40323148
+      ]
+    },
+    {
+      "claim_id": 1246,
+      "claim": "The one-child policy has created a hospitable environment for female infants.",
+      "category": "other",
+      "gold": {
+        "7662395": "CONTRADICT"
+      },
+      "predicted": {},
+      "top_docs": [
+        7662395,
+        20645335,
+        17450673
+      ]
+    },
+    {
+      "claim_id": 1260,
+      "claim": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is independent of the patient's genetic make-up.",
+      "category": "other",
+      "gold": {
+        "24341590": "CONTRADICT"
+      },
+      "predicted": {
+        "24341590": "CONTRADICT",
+        "13069283": "CONTRADICT"
+      },
+      "top_docs": [
+        24341590,
+        13069283,
+        12438901
+      ]
+    },
+    {
+      "claim_id": 1261,
+      "claim": "The removal of reactive oxygen species by activated oncogenes contributes to the increased genomic instability of leukaemia cells.",
+      "category": "other",
+      "gold": {
+        "13023410": "CONTRADICT"
+      },
+      "predicted": {},
+      "top_docs": [
+        13023410,
+        5765455,
+        21793890
+      ]
+    },
+    {
+      "claim_id": 1275,
+      "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) is decorated with VgrG and PAAR proteins.",
+      "category": "other",
+      "gold": {},
+      "predicted": {
+        "4406819": "SUPPORT"
+      },
+      "top_docs": [
+        4406819,
+        27731651,
+        22632303
+      ]
+    },
+    {
+      "claim_id": 1390,
+      "claim": "mcm 5 s 2 U is required for proper decoding of NNR codons in eukaryotes.",
+      "category": "numerical",
+      "gold": {
+        "2890952": "SUPPORT"
+      },
+      "predicted": {
+        "34498325": "SUPPORT",
+        "2890952": "SUPPORT"
+      },
+      "top_docs": [
+        34498325,
+        2890952,
+        2566674
+      ]
+    },
+    {
+      "claim_id": 1404,
+      "claim": "siRNA knockdown of A20 slows tumor progression in an in vivo murine xenograft model.",
+      "category": "needs_multiple_docs",
+      "gold": {
+        "33370": "SUPPORT",
+        "38355793": "SUPPORT"
+      },
+      "predicted": {
+        "38355793": "SUPPORT"
+      },
+      "top_docs": [
+        38355793,
+        33370,
+        40412980
+      ]
+    }
+  ]
+}
